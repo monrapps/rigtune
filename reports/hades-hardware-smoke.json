@@ -1,0 +1,151 @@
+{
+  "host": "Hades",
+  "started_at": "2026-10-13T21:14:36.032280+00:00",
+  "purpose": "Validate a 1 W decrease, 60 s settling and verified restoration on one GPU",
+  "before": [
+    {
+      "index": "0",
+      "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+      "name": "NVIDIA GeForce GTX 1080 Ti",
+      "pci_bus_id": "00000000:01:00.0",
+      "temperature_c": 59.0,
+      "power_draw_w": 184.38,
+      "power_limit_w": 185.0,
+      "power_min_w": 125.0,
+      "power_max_w": 300.0,
+      "gpu_utilization_pct": 100.0,
+      "memory_utilization_pct": 0.0
+    },
+    {
+      "index": "1",
+      "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+      "name": "NVIDIA GeForce RTX 3060",
+      "pci_bus_id": "00000000:02:00.0",
+      "temperature_c": 58.0,
+      "power_draw_w": 174.59,
+      "power_limit_w": 175.0,
+      "power_min_w": 100.0,
+      "power_max_w": 212.0,
+      "gpu_utilization_pct": 100.0,
+      "memory_utilization_pct": 47.0
+    }
+  ],
+  "samples": [
+    {
+      "elapsed_s": 0.11,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "decrease"
+    },
+    {
+      "elapsed_s": 5.21,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "settling"
+    },
+    {
+      "elapsed_s": 10.27,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "settling"
+    },
+    {
+      "elapsed_s": 15.36,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "settling"
+    },
+    {
+      "elapsed_s": 20.45,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "settling"
+    },
+    {
+      "elapsed_s": 25.52,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "settling"
+    },
+    {
+      "elapsed_s": 30.58,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "settling"
+    },
+    {
+      "elapsed_s": 35.67,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "settling"
+    },
+    {
+      "elapsed_s": 40.73,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "settling"
+    },
+    {
+      "elapsed_s": 45.83,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "settling"
+    },
+    {
+      "elapsed_s": 50.89,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "settling"
+    },
+    {
+      "elapsed_s": 55.99,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "settling"
+    },
+    {
+      "elapsed_s": 61.08,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "hot_at_minimum"
+    },
+    {
+      "elapsed_s": 66.16,
+      "temperature_c": 58.0,
+      "power_limit_w": 174.0,
+      "state": "hot_at_minimum"
+    }
+  ],
+  "restored": true,
+  "passed": true,
+  "after": [
+    {
+      "index": "0",
+      "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+      "name": "NVIDIA GeForce GTX 1080 Ti",
+      "pci_bus_id": "00000000:01:00.0",
+      "temperature_c": 59.0,
+      "power_draw_w": 184.14,
+      "power_limit_w": 185.0,
+      "power_min_w": 125.0,
+      "power_max_w": 300.0,
+      "gpu_utilization_pct": 100.0,
+      "memory_utilization_pct": 0.0
+    },
+    {
+      "index": "1",
+      "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+      "name": "NVIDIA GeForce RTX 3060",
+      "pci_bus_id": "00000000:02:00.0",
+      "temperature_c": 58.0,
+      "power_draw_w": 174.3,
+      "power_limit_w": 175.0,
+      "power_min_w": 100.0,
+      "power_max_w": 212.0,
+      "gpu_utilization_pct": 100.0,
+      "memory_utilization_pct": 47.0
+    }
+  ],
+  "all_original_limits_preserved": true,
+  "finished_at": "2026-10-13T21:15:42.345097+00:00"
+}

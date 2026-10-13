@@ -1,0 +1,980 @@
+{
+  "host": "Hades",
+  "service": {
+    "MainPID": "2807258",
+    "NRestarts": "0",
+    "ExecMainStartTimestamp": "Tue 2026-10-13 18:25:12 -03",
+    "ActiveState": "active",
+    "SubState": "running",
+    "UnitFileState": "enabled"
+  },
+  "config": {
+    "poll_interval_s": 5,
+    "command_timeout_s": 10,
+    "defaults": {
+      "target_temp_c": 62,
+      "hysteresis_c": 0,
+      "critical_temp_c": 75,
+      "step_up_w": 3,
+      "step_down_w": 5,
+      "fine_step_w": 1,
+      "fine_band_c": 5,
+      "settle_time_s": 60,
+      "warmup_s": 60,
+      "trend_window_s": 30,
+      "max_rise_c_per_min": 0.5,
+      "recovery_s": 60
+    },
+    "gpus": [
+      {
+        "id": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+        "power_min_w": 125,
+        "power_max_w": 300
+      },
+      {
+        "id": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+        "power_min_w": 100,
+        "power_max_w": 212
+      }
+    ]
+  },
+  "samples": [
+    {
+      "timestamp": "2026-10-13T21:58:46.918032+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.82,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.66,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 48.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:58:51.975354+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.44,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.9,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 48.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:58:57.017360+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.6,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.59,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 47.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:59:02.058145+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 197.16,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.54,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 48.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:59:07.119001+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.5,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.76,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 48.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:59:12.155843+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 197.32,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.28,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 48.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:59:17.215001+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 201.04,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.58,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 48.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:59:22.250872+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 201.19,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.66,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 48.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:59:27.308621+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.84,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.69,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 48.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:59:32.344494+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 201.15,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.42,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 48.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:59:37.394995+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.6,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.87,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 48.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:59:42.430178+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 200.85,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.66,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 48.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:59:47.478475+00:00",
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 200.67,
+          "power_limit_w": 200.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 62.0,
+          "power_draw_w": 196.52,
+          "power_limit_w": 197.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 48.0
+        }
+      ]
+    }
+  ],
+  "cooling": {
+    "returncode": 0,
+    "stdout": "0, GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf, 100, 1556, 4006\n1, GPU-fb324d7f-9c42-3c25-2327-efb172603c11, 100, 1912, 6301\n",
+    "stderr": ""
+  },
+  "journal_error": "",
+  "journal": [
+    {
+      "timestamp_us": "1791926712927005",
+      "message": "2026-10-13 18:25:12,926 INFO RigTune 0.1.0: controle ativo, 2 GPU(s)"
+    },
+    {
+      "timestamp_us": "1791926712965745",
+      "message": "2026-10-13 18:25:12,965 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.0C tendencia=NoneC/min consumo=188.09W PL=188.0W -> manterW estado=warmup"
+    },
+    {
+      "timestamp_us": "1791926712965866",
+      "message": "2026-10-13 18:25:12,965 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=59.0C media=59.0C tendencia=NoneC/min consumo=178.74W PL=179.0W -> manterW estado=warmup"
+    },
+    {
+      "timestamp_us": "1791926777965404",
+      "message": "2026-10-13 18:26:17,965 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.0C tendencia=0.0C/min consumo=187.72W PL=188.0W -> 189.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791926778046644",
+      "message": "2026-10-13 18:26:18,046 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 189.0 W"
+    },
+    {
+      "timestamp_us": "1791926778046771",
+      "message": "2026-10-13 18:26:18,046 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=59.0C media=59.0C tendencia=0.0C/min consumo=178.51W PL=179.0W -> 180.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791926778113617",
+      "message": "2026-10-13 18:26:18,113 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 180.0 W"
+    },
+    {
+      "timestamp_us": "1791926782988678",
+      "message": "2026-10-13 18:26:22,988 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.0C tendencia=NoneC/min consumo=187.86W PL=189.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791926782989022",
+      "message": "2026-10-13 18:26:22,988 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=59.0C media=59.0C tendencia=NoneC/min consumo=179.78W PL=180.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791926842978817",
+      "message": "2026-10-13 18:27:22,978 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.0C tendencia=0.0C/min consumo=188.09W PL=189.0W -> 190.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791926843057991",
+      "message": "2026-10-13 18:27:23,057 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 190.0 W"
+    },
+    {
+      "timestamp_us": "1791926843058110",
+      "message": "2026-10-13 18:27:23,058 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=59.0C media=59.0C tendencia=0.0C/min consumo=179.64W PL=180.0W -> 181.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791926843117942",
+      "message": "2026-10-13 18:27:23,117 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 181.0 W"
+    },
+    {
+      "timestamp_us": "1791926847968173",
+      "message": "2026-10-13 18:27:27,967 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.0C tendencia=NoneC/min consumo=188.23W PL=190.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791926847968694",
+      "message": "2026-10-13 18:27:27,968 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=59.0C media=59.0C tendencia=NoneC/min consumo=180.76W PL=181.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791926907968483",
+      "message": "2026-10-13 18:28:27,968 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.0C tendencia=0.0C/min consumo=188.33W PL=190.0W -> 191.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791926908042001",
+      "message": "2026-10-13 18:28:28,041 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 191.0 W"
+    },
+    {
+      "timestamp_us": "1791926908042161",
+      "message": "2026-10-13 18:28:28,042 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=59.0C media=59.0C tendencia=0.0C/min consumo=180.34W PL=181.0W -> 182.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791926908114229",
+      "message": "2026-10-13 18:28:28,114 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 182.0 W"
+    },
+    {
+      "timestamp_us": "1791926912965890",
+      "message": "2026-10-13 18:28:32,965 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.0C tendencia=NoneC/min consumo=188.28W PL=191.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791926912966324",
+      "message": "2026-10-13 18:28:32,965 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=59.0C media=59.0C tendencia=NoneC/min consumo=181.47W PL=182.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791926972969291",
+      "message": "2026-10-13 18:29:32,969 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.0C tendencia=0.0C/min consumo=188.43W PL=191.0W -> 192.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791926973046062",
+      "message": "2026-10-13 18:29:33,045 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 192.0 W"
+    },
+    {
+      "timestamp_us": "1791926973046299",
+      "message": "2026-10-13 18:29:33,046 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=59.0C media=59.0C tendencia=0.0C/min consumo=181.65W PL=182.0W -> 183.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791926973117920",
+      "message": "2026-10-13 18:29:33,117 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 183.0 W"
+    },
+    {
+      "timestamp_us": "1791926977970065",
+      "message": "2026-10-13 18:29:37,969 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.0C tendencia=NoneC/min consumo=188.57W PL=192.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791926977970684",
+      "message": "2026-10-13 18:29:37,970 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=59.0C media=59.0C tendencia=NoneC/min consumo=182.68W PL=183.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927037988092",
+      "message": "2026-10-13 18:30:37,987 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.0C tendencia=0.0C/min consumo=187.66W PL=192.0W -> 193.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927038066576",
+      "message": "2026-10-13 18:30:38,066 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 193.0 W"
+    },
+    {
+      "timestamp_us": "1791927038066722",
+      "message": "2026-10-13 18:30:38,066 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=59.0C media=59.0C tendencia=0.0C/min consumo=182.82W PL=183.0W -> 184.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927038128821",
+      "message": "2026-10-13 18:30:38,128 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 184.0 W"
+    },
+    {
+      "timestamp_us": "1791927042982989",
+      "message": "2026-10-13 18:30:42,982 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.0C tendencia=NoneC/min consumo=196.13W PL=193.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927042983298",
+      "message": "2026-10-13 18:30:42,982 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=59.0C media=59.0C tendencia=NoneC/min consumo=183.89W PL=184.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927102968231",
+      "message": "2026-10-13 18:31:42,968 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.21C tendencia=0.71C/min consumo=188.7W PL=193.0W -> manterW estado=temperature_still_rising"
+    },
+    {
+      "timestamp_us": "1791927102968669",
+      "message": "2026-10-13 18:31:42,968 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=60.0C media=59.84C tendencia=0.86C/min consumo=183.66W PL=184.0W -> manterW estado=temperature_still_rising"
+    },
+    {
+      "timestamp_us": "1791927107973934",
+      "message": "2026-10-13 18:31:47,973 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=60.0C media=59.89C tendencia=0.14C/min consumo=183.64W PL=184.0W -> 185.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927108039566",
+      "message": "2026-10-13 18:31:48,039 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 185.0 W"
+    },
+    {
+      "timestamp_us": "1791927112988388",
+      "message": "2026-10-13 18:31:52,988 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=60.0C media=59.92C tendencia=NoneC/min consumo=184.71W PL=185.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927132986898",
+      "message": "2026-10-13 18:32:12,986 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=60.0C media=60.5C tendencia=-0.0C/min consumo=195.41W PL=193.0W -> 194.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927133056221",
+      "message": "2026-10-13 18:32:13,056 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 194.0 W"
+    },
+    {
+      "timestamp_us": "1791927137982105",
+      "message": "2026-10-13 18:32:17,981 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=61.0C media=60.65C tendencia=NoneC/min consumo=195.03W PL=194.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927172991770",
+      "message": "2026-10-13 18:32:52,991 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=60.0C media=60.0C tendencia=0.0C/min consumo=184.44W PL=185.0W -> 186.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927173063056",
+      "message": "2026-10-13 18:32:53,062 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 186.0 W"
+    },
+    {
+      "timestamp_us": "1791927177977990",
+      "message": "2026-10-13 18:32:57,977 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=60.0C media=60.0C tendencia=NoneC/min consumo=185.59W PL=186.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927197986166",
+      "message": "2026-10-13 18:33:17,985 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=61.0C media=60.78C tendencia=-0.86C/min consumo=195.75W PL=194.0W -> 195.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927198063444",
+      "message": "2026-10-13 18:33:18,063 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 195.0 W"
+    },
+    {
+      "timestamp_us": "1791927202975527",
+      "message": "2026-10-13 18:33:22,975 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=61.0C media=60.84C tendencia=NoneC/min consumo=196.36W PL=195.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927237978033",
+      "message": "2026-10-13 18:33:57,977 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=60.0C media=60.0C tendencia=0.0C/min consumo=185.78W PL=186.0W -> 187.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927238044829",
+      "message": "2026-10-13 18:33:58,044 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 187.0 W"
+    },
+    {
+      "timestamp_us": "1791927242973115",
+      "message": "2026-10-13 18:34:02,972 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=60.0C media=60.0C tendencia=NoneC/min consumo=186.87W PL=187.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927262974462",
+      "message": "2026-10-13 18:34:22,974 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=61.0C media=61.0C tendencia=0.0C/min consumo=196.21W PL=195.0W -> 196.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927263048699",
+      "message": "2026-10-13 18:34:23,048 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 196.0 W"
+    },
+    {
+      "timestamp_us": "1791927267977061",
+      "message": "2026-10-13 18:34:27,976 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=61.0C media=61.0C tendencia=NoneC/min consumo=196.36W PL=196.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927302976315",
+      "message": "2026-10-13 18:35:02,976 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=60.0C media=60.0C tendencia=0.0C/min consumo=186.76W PL=187.0W -> 188.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927303033115",
+      "message": "2026-10-13 18:35:03,033 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 188.0 W"
+    },
+    {
+      "timestamp_us": "1791927307991010",
+      "message": "2026-10-13 18:35:07,990 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=60.0C media=60.0C tendencia=NoneC/min consumo=188.02W PL=188.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927327975584",
+      "message": "2026-10-13 18:35:27,975 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=61.0C media=61.0C tendencia=0.0C/min consumo=196.54W PL=196.0W -> 197.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927328041383",
+      "message": "2026-10-13 18:35:28,041 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 197.0 W"
+    },
+    {
+      "timestamp_us": "1791927332986556",
+      "message": "2026-10-13 18:35:32,986 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=61.0C media=61.0C tendencia=NoneC/min consumo=196.78W PL=197.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927367992418",
+      "message": "2026-10-13 18:36:07,992 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=60.76C tendencia=0.86C/min consumo=187.79W PL=188.0W -> manterW estado=temperature_still_rising"
+    },
+    {
+      "timestamp_us": "1791927372977053",
+      "message": "2026-10-13 18:36:12,976 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=60.0C media=60.54C tendencia=-0.14C/min consumo=188.09W PL=188.0W -> 189.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927373037497",
+      "message": "2026-10-13 18:36:13,037 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 189.0 W"
+    },
+    {
+      "timestamp_us": "1791927377987845",
+      "message": "2026-10-13 18:36:17,987 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=60.67C tendencia=NoneC/min consumo=188.89W PL=189.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927392999929",
+      "message": "2026-10-13 18:36:32,999 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=61.0C media=61.0C tendencia=0.0C/min consumo=196.84W PL=197.0W -> 198.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927393078012",
+      "message": "2026-10-13 18:36:33,077 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 198.0 W"
+    },
+    {
+      "timestamp_us": "1791927397994851",
+      "message": "2026-10-13 18:36:37,994 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=61.0C media=61.0C tendencia=NoneC/min consumo=196.94W PL=198.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927437979735",
+      "message": "2026-10-13 18:37:17,979 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=60.89C tendencia=0.14C/min consumo=188.89W PL=189.0W -> 190.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927438041103",
+      "message": "2026-10-13 18:37:18,040 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 190.0 W"
+    },
+    {
+      "timestamp_us": "1791927442975484",
+      "message": "2026-10-13 18:37:22,975 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=60.92C tendencia=NoneC/min consumo=189.87W PL=190.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927458003046",
+      "message": "2026-10-13 18:37:38,002 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=61.0C media=61.0C tendencia=0.0C/min consumo=195.88W PL=198.0W -> 199.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927458080810",
+      "message": "2026-10-13 18:37:38,080 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 199.0 W"
+    },
+    {
+      "timestamp_us": "1791927462993639",
+      "message": "2026-10-13 18:37:42,993 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=61.3C tendencia=NoneC/min consumo=199.39W PL=199.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927502983997",
+      "message": "2026-10-13 18:38:22,983 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=61.0C tendencia=0.0C/min consumo=188.93W PL=190.0W -> 191.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927503044709",
+      "message": "2026-10-13 18:38:23,044 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 191.0 W"
+    },
+    {
+      "timestamp_us": "1791927507994115",
+      "message": "2026-10-13 18:38:27,993 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=61.0C tendencia=NoneC/min consumo=191.4W PL=191.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927522985835",
+      "message": "2026-10-13 18:38:42,985 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=61.93C tendencia=0.86C/min consumo=197.26W PL=199.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791927567981115",
+      "message": "2026-10-13 18:39:27,980 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=61.0C tendencia=0.0C/min consumo=190.7W PL=191.0W -> 192.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927568043030",
+      "message": "2026-10-13 18:39:28,042 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 192.0 W"
+    },
+    {
+      "timestamp_us": "1791927572991446",
+      "message": "2026-10-13 18:39:32,991 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=61.0C tendencia=NoneC/min consumo=191.71W PL=192.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927587991979",
+      "message": "2026-10-13 18:39:47,991 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=196.98W PL=199.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791927607983211",
+      "message": "2026-10-13 18:40:07,983 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=61.0C media=61.7C tendencia=-1.28C/min consumo=196.92W PL=199.0W -> 200.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927608059729",
+      "message": "2026-10-13 18:40:08,059 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 200.0 W"
+    },
+    {
+      "timestamp_us": "1791927613011482",
+      "message": "2026-10-13 18:40:13,011 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=61.79C tendencia=NoneC/min consumo=196.78W PL=200.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927632985286",
+      "message": "2026-10-13 18:40:32,985 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=61.0C tendencia=0.0C/min consumo=191.82W PL=192.0W -> 193.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927633047253",
+      "message": "2026-10-13 18:40:33,047 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 193.0 W"
+    },
+    {
+      "timestamp_us": "1791927638000041",
+      "message": "2026-10-13 18:40:37,999 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=61.0C tendencia=NoneC/min consumo=192.66W PL=193.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927673001187",
+      "message": "2026-10-13 18:41:13,000 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=200.93W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791927697998539",
+      "message": "2026-10-13 18:41:37,998 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=61.56C tendencia=-0.0C/min consumo=192.75W PL=193.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791927702987488",
+      "message": "2026-10-13 18:41:42,987 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=61.39C tendencia=-0.57C/min consumo=192.71W PL=193.0W -> 194.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927703060478",
+      "message": "2026-10-13 18:41:43,060 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 194.0 W"
+    },
+    {
+      "timestamp_us": "1791927708001927",
+      "message": "2026-10-13 18:41:48,001 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=61.58C tendencia=NoneC/min consumo=193.94W PL=194.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927733001968",
+      "message": "2026-10-13 18:42:13,001 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=200.87W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791927767992592",
+      "message": "2026-10-13 18:42:47,992 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=61.69C tendencia=-1.0C/min consumo=193.81W PL=194.0W -> 195.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927768067640",
+      "message": "2026-10-13 18:42:48,067 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 195.0 W"
+    },
+    {
+      "timestamp_us": "1791927773016936",
+      "message": "2026-10-13 18:42:53,016 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=61.79C tendencia=NoneC/min consumo=194.79W PL=195.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927798009792",
+      "message": "2026-10-13 18:43:18,009 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=196.94W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791927833001297",
+      "message": "2026-10-13 18:43:53,001 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=195.15W PL=195.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791927858009708",
+      "message": "2026-10-13 18:44:18,009 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=196.74W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791927898009502",
+      "message": "2026-10-13 18:44:58,009 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=61.7C tendencia=-1.29C/min consumo=194.41W PL=195.0W -> 196.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791927898067056",
+      "message": "2026-10-13 18:44:58,066 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 196.0 W"
+    },
+    {
+      "timestamp_us": "1791927902994062",
+      "message": "2026-10-13 18:45:02,993 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=61.79C tendencia=NoneC/min consumo=195.68W PL=196.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791927918009920",
+      "message": "2026-10-13 18:45:18,009 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=196.98W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791927962995381",
+      "message": "2026-10-13 18:46:02,995 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=194.82W PL=196.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791927983009643",
+      "message": "2026-10-13 18:46:23,009 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=201.04W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928023026294",
+      "message": "2026-10-13 18:47:03,026 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=195.64W PL=196.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928047999365",
+      "message": "2026-10-13 18:47:27,999 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=201.39W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928087997811",
+      "message": "2026-10-13 18:48:07,997 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=195.59W PL=196.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928107999833",
+      "message": "2026-10-13 18:48:27,999 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=201.06W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928148001518",
+      "message": "2026-10-13 18:49:08,001 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=195.82W PL=196.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928168006208",
+      "message": "2026-10-13 18:49:28,006 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=196.58W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928213016350",
+      "message": "2026-10-13 18:50:13,016 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=195.99W PL=196.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928233011749",
+      "message": "2026-10-13 18:50:33,011 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=197.07W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928277996644",
+      "message": "2026-10-13 18:51:17,996 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=162.28W PL=196.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928293023880",
+      "message": "2026-10-13 18:51:33,023 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=197.22W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928338014232",
+      "message": "2026-10-13 18:52:18,014 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=195.63W PL=196.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928357999830",
+      "message": "2026-10-13 18:52:37,999 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=197.32W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928358000133",
+      "message": "2026-10-13 18:52:37,999 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=61.0C media=61.7C tendencia=-1.0C/min consumo=195.49W PL=196.0W -> 197.0W estado=increase_fine"
+    },
+    {
+      "timestamp_us": "1791928358058347",
+      "message": "2026-10-13 18:52:38,058 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 197.0 W"
+    },
+    {
+      "timestamp_us": "1791928363020295",
+      "message": "2026-10-13 18:52:43,020 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=61.79C tendencia=NoneC/min consumo=196.53W PL=197.0W -> manterW estado=settling"
+    },
+    {
+      "timestamp_us": "1791928418005741",
+      "message": "2026-10-13 18:53:38,005 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=201.11W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928423008319",
+      "message": "2026-10-13 18:53:43,008 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=196.63W PL=197.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928478006598",
+      "message": "2026-10-13 18:54:38,006 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=197.58W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928483009036",
+      "message": "2026-10-13 18:54:43,008 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=196.55W PL=197.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928543010426",
+      "message": "2026-10-13 18:55:43,010 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=201.28W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928543011096",
+      "message": "2026-10-13 18:55:43,010 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=196.6W PL=197.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928603013934",
+      "message": "2026-10-13 18:56:43,013 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=197.4W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928603014291",
+      "message": "2026-10-13 18:56:43,013 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=196.59W PL=197.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928668029508",
+      "message": "2026-10-13 18:57:48,029 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=200.82W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928668029841",
+      "message": "2026-10-13 18:57:48,029 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=196.61W PL=197.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928733039592",
+      "message": "2026-10-13 18:58:53,039 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=62.0C media=62.0C tendencia=0.0C/min consumo=197.07W PL=200.0W -> manterW estado=in_target_band"
+    },
+    {
+      "timestamp_us": "1791928733040104",
+      "message": "2026-10-13 18:58:53,039 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=62.0C media=62.0C tendencia=0.0C/min consumo=196.87W PL=197.0W -> manterW estado=in_target_band"
+    }
+  ],
+  "kernel_errors": [],
+  "kernel_query_error": ""
+}

@@ -1,0 +1,162 @@
+{
+  "host": "Hades",
+  "config_path": "/etc/rigtune/config.json",
+  "config": {
+    "poll_interval_s": 5,
+    "command_timeout_s": 10,
+    "defaults": {
+      "target_temp_c": 62,
+      "hysteresis_c": 2,
+      "critical_temp_c": 75,
+      "step_up_w": 3,
+      "step_down_w": 5,
+      "fine_step_w": 1,
+      "fine_band_c": 5,
+      "settle_time_s": 60,
+      "warmup_s": 60,
+      "trend_window_s": 30,
+      "max_rise_c_per_min": 0.5,
+      "recovery_s": 60
+    },
+    "gpus": [
+      {
+        "id": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+        "power_min_w": 125,
+        "power_max_w": 300
+      },
+      {
+        "id": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+        "power_min_w": 100,
+        "power_max_w": 212
+      }
+    ]
+  },
+  "samples": [
+    {
+      "timestamp": "2026-10-13T21:21:05.574182+00:00",
+      "service": {
+        "MainPID": "2785570",
+        "NRestarts": "0",
+        "ActiveState": "active",
+        "SubState": "running",
+        "UnitFileState": "enabled"
+      },
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 186.03,
+          "power_limit_w": 185.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 58.0,
+          "power_draw_w": 174.62,
+          "power_limit_w": 175.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 47.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:21:35.639147+00:00",
+      "service": {
+        "MainPID": "2785570",
+        "NRestarts": "0",
+        "ActiveState": "active",
+        "SubState": "running",
+        "UnitFileState": "enabled"
+      },
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 187.14,
+          "power_limit_w": 186.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 58.0,
+          "power_draw_w": 175.73,
+          "power_limit_w": 176.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 47.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:22:05.720109+00:00",
+      "service": {
+        "MainPID": "2785570",
+        "NRestarts": "0",
+        "ActiveState": "active",
+        "SubState": "running",
+        "UnitFileState": "enabled"
+      },
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 184.38,
+          "power_limit_w": 186.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+          "name": "NVIDIA GeForce RTX 3060",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 58.0,
+          "power_draw_w": 175.66,
+          "power_limit_w": 176.0,
+          "power_min_w": 100.0,
+          "power_max_w": 212.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 47.0
+        }
+      ]
+    }
+  ],
+  "journal": [
+    "Oct 13 18:20:14 Hades systemd[1]: Started RigTune - controle termico de power limit NVIDIA.",
+    "Oct 13 18:20:14 Hades python3[2785570]: 2026-10-13 18:20:14,203 INFO RigTune 0.1.0: controle ativo, 2 GPU(s)",
+    "Oct 13 18:20:14 Hades python3[2785570]: 2026-10-13 18:20:14,244 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=59.0C media=59.0C tendencia=NoneC/min consumo=184.26W PL=185.0W -> manterW estado=warmup",
+    "Oct 13 18:20:14 Hades python3[2785570]: 2026-10-13 18:20:14,244 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=58.0C media=58.0C tendencia=NoneC/min consumo=174.76W PL=175.0W -> manterW estado=warmup",
+    "Oct 13 18:21:19 Hades python3[2785570]: 2026-10-13 18:21:19,249 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=59.0C media=59.0C tendencia=0.0C/min consumo=184.38W PL=185.0W -> 186.0W estado=increase_fine",
+    "Oct 13 18:21:19 Hades python3[2785570]: 2026-10-13 18:21:19,333 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 186.0 W",
+    "Oct 13 18:21:19 Hades python3[2785570]: 2026-10-13 18:21:19,334 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=58.0C media=58.0C tendencia=0.0C/min consumo=174.74W PL=175.0W -> 176.0W estado=increase_fine",
+    "Oct 13 18:21:19 Hades python3[2785570]: 2026-10-13 18:21:19,400 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 176.0 W",
+    "Oct 13 18:21:24 Hades python3[2785570]: 2026-10-13 18:21:24,236 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=59.0C media=59.0C tendencia=NoneC/min consumo=186.87W PL=186.0W -> manterW estado=settling",
+    "Oct 13 18:21:24 Hades python3[2785570]: 2026-10-13 18:21:24,236 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=58.0C media=58.0C tendencia=NoneC/min consumo=175.79W PL=176.0W -> manterW estado=settling"
+  ]
+}

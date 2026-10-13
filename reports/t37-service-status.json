@@ -1,0 +1,299 @@
+{
+  "host": "T37",
+  "config_path": "/etc/rigtune/config.json",
+  "config": {
+    "poll_interval_s": 5,
+    "command_timeout_s": 10,
+    "defaults": {
+      "target_temp_c": 62,
+      "hysteresis_c": 0,
+      "critical_temp_c": 75,
+      "step_up_w": 3,
+      "step_down_w": 5,
+      "fine_step_w": 1,
+      "fine_band_c": 5,
+      "settle_time_s": 60,
+      "warmup_s": 60,
+      "trend_window_s": 30,
+      "max_rise_c_per_min": 0.5,
+      "recovery_s": 60,
+      "power_min_w": 125,
+      "power_max_w": 300
+    },
+    "gpus": [
+      {
+        "id": "GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af"
+      },
+      {
+        "id": "GPU-b810c61a-7473-7122-7af3-3e71afaf0598"
+      },
+      {
+        "id": "GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e"
+      },
+      {
+        "id": "GPU-14ea80ad-29a4-4891-002d-4f55793d5602"
+      },
+      {
+        "id": "GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559"
+      }
+    ]
+  },
+  "samples": [
+    {
+      "timestamp": "2026-10-13T21:32:45.459509+00:00",
+      "service": {
+        "MainPID": "1005945",
+        "NRestarts": "0",
+        "ActiveState": "active",
+        "SubState": "running",
+        "UnitFileState": "enabled"
+      },
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 139.62,
+          "power_limit_w": 140.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-b810c61a-7473-7122-7af3-3e71afaf0598",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 177.75,
+          "power_limit_w": 180.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "2",
+          "uuid": "GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:04:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 164.28,
+          "power_limit_w": 165.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "3",
+          "uuid": "GPU-14ea80ad-29a4-4891-002d-4f55793d5602",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:05:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 168.62,
+          "power_limit_w": 170.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "4",
+          "uuid": "GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:06:00.0",
+          "temperature_c": 60.0,
+          "power_draw_w": 148.14,
+          "power_limit_w": 150.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:33:20.621116+00:00",
+      "service": {
+        "MainPID": "1005945",
+        "NRestarts": "0",
+        "ActiveState": "active",
+        "SubState": "running",
+        "UnitFileState": "enabled"
+      },
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 139.26,
+          "power_limit_w": 140.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-b810c61a-7473-7122-7af3-3e71afaf0598",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 58.0,
+          "power_draw_w": 177.76,
+          "power_limit_w": 180.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "2",
+          "uuid": "GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:04:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 164.04,
+          "power_limit_w": 165.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "3",
+          "uuid": "GPU-14ea80ad-29a4-4891-002d-4f55793d5602",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:05:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 168.49,
+          "power_limit_w": 170.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "4",
+          "uuid": "GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:06:00.0",
+          "temperature_c": 60.0,
+          "power_draw_w": 148.11,
+          "power_limit_w": 150.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T21:33:55.819287+00:00",
+      "service": {
+        "MainPID": "1005945",
+        "NRestarts": "0",
+        "ActiveState": "active",
+        "SubState": "running",
+        "UnitFileState": "enabled"
+      },
+      "gpus": [
+        {
+          "index": "0",
+          "uuid": "GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:01:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 140.52,
+          "power_limit_w": 141.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-b810c61a-7473-7122-7af3-3e71afaf0598",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:02:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 177.4,
+          "power_limit_w": 181.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "2",
+          "uuid": "GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:04:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 167.66,
+          "power_limit_w": 166.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "3",
+          "uuid": "GPU-14ea80ad-29a4-4891-002d-4f55793d5602",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:05:00.0",
+          "temperature_c": 59.0,
+          "power_draw_w": 168.91,
+          "power_limit_w": 171.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        },
+        {
+          "index": "4",
+          "uuid": "GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559",
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "pci_bus_id": "00000000:06:00.0",
+          "temperature_c": 60.0,
+          "power_draw_w": 147.95,
+          "power_limit_w": 151.0,
+          "power_min_w": 125.0,
+          "power_max_w": 300.0,
+          "gpu_utilization_pct": 100.0,
+          "memory_utilization_pct": 0.0
+        }
+      ]
+    }
+  ],
+  "journal": [
+    "Oct 13 18:32:35 T37 systemd[1]: Started RigTune - controle termico de power limit NVIDIA.",
+    "Oct 13 18:32:35 T37 python3[1005945]: 2026-10-13 18:32:35,605 INFO RigTune 0.1.0: controle ativo, 5 GPU(s)",
+    "Oct 13 18:32:35 T37 python3[1005945]: 2026-10-13 18:32:35,744 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.0C tendencia=NoneC/min consumo=139.49W PL=140.0W -> manterW estado=warmup",
+    "Oct 13 18:32:35 T37 python3[1005945]: 2026-10-13 18:32:35,744 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.0C tendencia=NoneC/min consumo=179.45W PL=180.0W -> manterW estado=warmup",
+    "Oct 13 18:32:35 T37 python3[1005945]: 2026-10-13 18:32:35,744 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C media=59.0C tendencia=NoneC/min consumo=164.66W PL=165.0W -> manterW estado=warmup",
+    "Oct 13 18:32:35 T37 python3[1005945]: 2026-10-13 18:32:35,745 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.0C tendencia=NoneC/min consumo=168.47W PL=170.0W -> manterW estado=warmup",
+    "Oct 13 18:32:35 T37 python3[1005945]: 2026-10-13 18:32:35,745 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=NoneC/min consumo=148.0W PL=150.0W -> manterW estado=warmup",
+    "Oct 13 18:33:40 T37 python3[1005945]: 2026-10-13 18:33:40,751 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=58.79C tendencia=-0.86C/min consumo=139.62W PL=140.0W -> 141.0W estado=increase_fine",
+    "Oct 13 18:33:40 T37 python3[1005945]: 2026-10-13 18:33:40,914 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 141.0 W",
+    "Oct 13 18:33:40 T37 python3[1005945]: 2026-10-13 18:33:40,914 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=58.62C tendencia=1.28C/min consumo=182.98W PL=180.0W -> manterW estado=temperature_still_rising",
+    "Oct 13 18:33:40 T37 python3[1005945]: 2026-10-13 18:33:40,914 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C media=59.0C tendencia=0.0C/min consumo=163.89W PL=165.0W -> 166.0W estado=increase_fine",
+    "Oct 13 18:33:41 T37 python3[1005945]: 2026-10-13 18:33:41,043 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 166.0 W",
+    "Oct 13 18:33:41 T37 python3[1005945]: 2026-10-13 18:33:41,043 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.0C tendencia=0.0C/min consumo=168.82W PL=170.0W -> 171.0W estado=increase_fine",
+    "Oct 13 18:33:41 T37 python3[1005945]: 2026-10-13 18:33:41,179 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 171.0 W",
+    "Oct 13 18:33:41 T37 python3[1005945]: 2026-10-13 18:33:41,179 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=0.0C/min consumo=147.95W PL=150.0W -> 151.0W estado=increase_fine",
+    "Oct 13 18:33:41 T37 python3[1005945]: 2026-10-13 18:33:41,317 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 151.0 W",
+    "Oct 13 18:33:45 T37 python3[1005945]: 2026-10-13 18:33:45,744 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=58.85C tendencia=NoneC/min consumo=140.15W PL=141.0W -> manterW estado=settling",
+    "Oct 13 18:33:45 T37 python3[1005945]: 2026-10-13 18:33:45,744 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=58.0C media=58.43C tendencia=0.01C/min consumo=177.33W PL=180.0W -> 181.0W estado=increase_fine",
+    "Oct 13 18:33:45 T37 python3[1005945]: 2026-10-13 18:33:45,852 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 181.0 W",
+    "Oct 13 18:33:45 T37 python3[1005945]: 2026-10-13 18:33:45,852 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C media=59.0C tendencia=NoneC/min consumo=166.97W PL=166.0W -> manterW estado=settling",
+    "Oct 13 18:33:45 T37 python3[1005945]: 2026-10-13 18:33:45,852 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.0C tendencia=NoneC/min consumo=168.58W PL=171.0W -> manterW estado=settling",
+    "Oct 13 18:33:45 T37 python3[1005945]: 2026-10-13 18:33:45,852 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=NoneC/min consumo=147.91W PL=151.0W -> manterW estado=settling",
+    "Oct 13 18:33:50 T37 python3[1005945]: 2026-10-13 18:33:50,699 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=58.6C tendencia=NoneC/min consumo=182.92W PL=181.0W -> manterW estado=settling"
+  ]
+}

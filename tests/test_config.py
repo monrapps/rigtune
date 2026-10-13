@@ -43,20 +43,20 @@ class ConfigTests(unittest.TestCase):
         with tempfile.NamedTemporaryFile(mode="w", suffix=".json") as handle:
             handle.write('{"gpus": [], "gpus": []}')
             handle.flush()
-            with self.assertRaisesRegex(ConfigError, "duplicado"):
+            with self.assertRaisesRegex(ConfigError, "Duplicate"):
                 load_config(handle.name)
 
     def test_duplicate_index_spellings_rejected(self):
         config = configuration()
         defaults = config.gpus[0]._asdict()
         defaults.pop("id")
-        with self.assertRaisesRegex(ConfigError, "duplicada"):
+        with self.assertRaisesRegex(ConfigError, "Duplicate"):
             parse_config({"defaults": defaults, "gpus": [{"id": 0}, {"id": "00"}]})
 
     def test_same_gpu_by_index_and_uuid_rejected_before_writes(self):
         config = configuration()
         config = config._replace(gpus=config.gpus + (config.gpus[0]._replace(id=UUID_A.lower()),))
-        with self.assertRaisesRegex(ConfigError, "mais de uma vez"):
+        with self.assertRaisesRegex(ConfigError, "more than once"):
             bind_gpus(config, [sample()])
 
     def test_hardware_validation(self):

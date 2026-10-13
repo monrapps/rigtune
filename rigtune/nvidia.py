@@ -1,4 +1,4 @@
-"""Interface nvidia-smi: CSV, UUID, timeout e confirmação de escrita."""
+"""nvidia-smi interface: CSV, UUIDs, timeouts, and write confirmation."""
 
 import csv
 import io
@@ -49,13 +49,13 @@ def parse_readings(output):
         if not row:
             continue
         if len(row) != 11:
-            raise NvidiaError("Resposta CSV inválida de nvidia-smi (esperados 11 campos)")
+            raise NvidiaError("Invalid CSV response from nvidia-smi (expected 11 fields)")
         row = [field.strip() for field in row]
         index, uuid, name, pci = row[:4]
         if not index.isdigit() or not UUID_PATTERN.fullmatch(uuid):
-            raise NvidiaError("Identidade de GPU inválida na resposta de nvidia-smi")
+            raise NvidiaError("Invalid GPU identity in nvidia-smi response")
         if uuid.lower() in seen:
-            raise NvidiaError("UUID duplicado na resposta de nvidia-smi")
+            raise NvidiaError("Duplicate UUID in nvidia-smi response")
         seen.add(uuid.lower())
         readings.append(Reading(
             index, uuid, name, pci,
@@ -80,10 +80,10 @@ class NvidiaSmi:
                 universal_newlines=True, timeout=self.timeout_s, env=environment,
             )
         except (OSError, subprocess.TimeoutExpired, UnicodeError) as exc:
-            raise NvidiaError("Falha ao executar nvidia-smi: {}".format(exc)) from exc
+            raise NvidiaError("Failed to execute nvidia-smi: {}".format(exc)) from exc
         if result.returncode:
             message = (result.stderr or result.stdout).strip()[:500]
-            raise NvidiaError("nvidia-smi retornou {}: {}".format(result.returncode, message))
+            raise NvidiaError("nvidia-smi returned {}: {}".format(result.returncode, message))
         return result.stdout
 
     def read_all(self):
@@ -94,15 +94,15 @@ class NvidiaSmi:
             "--id=" + uuid, "--query-gpu=" + FIELDS, "--format=csv,noheader,nounits",
         ]))
         if len(readings) != 1 or readings[0].uuid.lower() != uuid.lower():
-            raise NvidiaError("GPU {} ausente na confirmação".format(uuid))
+            raise NvidiaError("GPU {} missing during confirmation".format(uuid))
         return readings[0]
 
     def set_power(self, uuid, watts):
         if not UUID_PATTERN.fullmatch(uuid) or not math.isfinite(watts) or watts <= 0:
-            raise NvidiaError("Identidade ou potência inválida para escrita")
+            raise NvidiaError("Invalid GPU identity or power value for write")
         self._run(["--id=" + uuid, "--power-limit={:g}".format(watts)])
         reading = self.read_one(uuid)
         actual = reading.power_limit_w
         if actual is None or abs(actual - watts) > 0.5:
-            raise NvidiaError("GPU {}: solicitado {} W; leitura posterior {} W".format(uuid, watts, actual))
+            raise NvidiaError("GPU {}: requested {} W; readback {} W".format(uuid, watts, actual))
         return reading

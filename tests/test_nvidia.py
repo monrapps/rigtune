@@ -62,7 +62,7 @@ class NvidiaTests(unittest.TestCase):
                 NvidiaSmi().set_power(UUID_A, 125)
 
     def test_real_subprocess_protocol_with_fake_nvidia_smi(self):
-        # Exercita argumentos e subprocesso real, sem acesso ao hardware.
+        # Exercise arguments and a real subprocess without accessing hardware.
         with tempfile.TemporaryDirectory() as directory:
             executable = os.path.join(directory, "nvidia-smi")
             script = "#!/bin/sh\ncase \"$2\" in\n --power-limit=125) exit 0 ;;\nesac\ncat <<'CSV'\n{}CSV\n".format(

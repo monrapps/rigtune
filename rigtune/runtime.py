@@ -1,4 +1,4 @@
-"""Execução, isolamento de falhas por GPU e exclusão entre processos."""
+"""Execution, per-GPU fault isolation, and interprocess locking."""
 
 import fcntl
 import logging
@@ -14,7 +14,7 @@ LOG = logging.getLogger("rigtune")
 
 
 class GpuLocks:
-    """Arquivos persistentes: não remover ao liberar (evita corrida de inode)."""
+    """Keep lock files after release to prevent inode races."""
 
     def __init__(self, uuids, directory="/run/lock/rigtune"):
         self.uuids = sorted(uuids)
@@ -32,7 +32,7 @@ class GpuLocks:
                 try:
                     fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
                 except BlockingIOError as exc:
-                    raise ConfigError("Já existe um RigTune controlando {}".format(uuid)) from exc
+                    raise ConfigError("Another RigTune instance is already controlling {}".format(uuid)) from exc
                 handle.truncate(0)
                 handle.write(str(os.getpid()))
                 handle.flush()
@@ -59,7 +59,7 @@ class ManagedGpu:
 
 
 def bind_gpus(config, readings):
-    """Valida todas as GPUs selecionadas antes de permitir qualquer escrita."""
+    """Validate all selected GPUs before allowing any writes."""
     managed = []
     seen = set()
     for gpu_config in config.gpus:
@@ -67,17 +67,17 @@ def bind_gpus(config, readings):
             reading.index, reading.uuid.lower(),
         )]
         if len(matches) != 1:
-            raise ConfigError("GPU {} não encontrada ou ambígua".format(gpu_config.id))
+            raise ConfigError("GPU {} not found or ambiguous".format(gpu_config.id))
         reading = matches[0]
         if reading.uuid.lower() in seen:
-            raise ConfigError("GPU {} selecionada mais de uma vez (índice/UUID)".format(reading.uuid))
+            raise ConfigError("GPU {} selected more than once (index/UUID)".format(reading.uuid))
         seen.add(reading.uuid.lower())
         low, high = reading.power_min_w, reading.power_max_w
         if low is None or high is None or reading.power_limit_w is None or low > high:
-            raise ConfigError("GPU {}: power limit não suportado ou indisponível".format(reading.uuid))
+            raise ConfigError("GPU {}: power limit unsupported or unavailable".format(reading.uuid))
         if not low <= gpu_config.power_min_w <= gpu_config.power_max_w <= high:
             raise ConfigError(
-                "GPU {}: faixa configurada {}–{} W fora da faixa de hardware {}–{} W".format(
+                "GPU {}: configured range {}–{} W outside hardware range {}–{} W".format(
                     reading.uuid, gpu_config.power_min_w, gpu_config.power_max_w, low, high,
                 )
             )
@@ -97,7 +97,7 @@ class RigRunner:
         try:
             readings = {reading.uuid.lower(): reading for reading in self.backend.read_all()}
         except NvidiaError as exc:
-            LOG.error("Falha de telemetria: %s", exc)
+            LOG.error("Telemetry failure: %s", exc)
             readings = {}
             healthy = False
         for gpu in self.managed:
@@ -109,14 +109,14 @@ class RigRunner:
                 if (actual is not None and gpu.last_seen_limit is not None
                         and abs(actual - gpu.last_seen_limit) > 0.5):
                     LOG.warning(
-                        "%s: PL externo mudou de %s para %s W; reiniciando acomodação",
+                        "%s: external PL changed from %s to %s W; restarting settling",
                         gpu.uuid, gpu.last_seen_limit, actual,
                     )
                     controller.external_change(now)
                     if self.dry_run:
                         gpu.virtual_limit = actual
                 gpu.last_seen_limit = actual
-                # Nunca mascara N/A; apenas simula os PLs nas leituras válidas.
+                # Never mask N/A; only simulate power limits for valid readings.
                 if self.dry_run and actual is not None:
                     reading = reading._replace(power_limit_w=gpu.virtual_limit)
             decision = controller.decide(reading, now)
@@ -134,13 +134,13 @@ class RigRunner:
                     or gpu.last_log_at is None or now - gpu.last_log_at >= 60):
                 LOG.log(
                     level,
-                    "%s%s temp=%sC media=%sC tendencia=%sC/min consumo=%sW PL=%sW -> %sW estado=%s",
+                    "%s%s temp=%sC average=%sC trend=%sC/min draw=%sW PL=%sW -> %sW state=%s",
                     "[DRY-RUN] " if self.dry_run else "", gpu.uuid,
                     reading.temperature_c if reading else None,
                     _rounded(controller.filtered_temp_c), _rounded(controller.trend_c_per_min),
                     reading.power_draw_w if reading else None,
                     reading.power_limit_w if reading else None,
-                    decision.power_w if decision.power_w is not None else "manter", decision.reason,
+                    decision.power_w if decision.power_w is not None else "hold", decision.reason,
                 )
                 gpu.last_reason = decision.reason
                 gpu.last_log_at = now
@@ -153,13 +153,13 @@ class RigRunner:
             try:
                 confirmed = self.backend.set_power(gpu.uuid, decision.power_w)
             except NvidiaError as exc:
-                LOG.error("%s: não foi possível confirmar o ajuste: %s", gpu.uuid, exc)
+                LOG.error("%s: could not confirm adjustment: %s", gpu.uuid, exc)
                 controller.write_failed()
                 healthy = False
                 continue
             gpu.last_seen_limit = confirmed.power_limit_w
             controller.changed(self.clock())
-            LOG.info("%s: PL confirmado em %s W", gpu.uuid, confirmed.power_limit_w)
+            LOG.info("%s: PL confirmed at %s W", gpu.uuid, confirmed.power_limit_w)
         return healthy
 
 

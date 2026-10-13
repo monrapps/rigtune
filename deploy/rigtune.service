@@ -1,5 +1,5 @@
 [Unit]
-Description=RigTune - controle termico de power limit NVIDIA
+Description=RigTune - thermal power limit control for NVIDIA GPUs
 After=network.target
 StartLimitIntervalSec=300
 StartLimitBurst=10

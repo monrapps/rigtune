@@ -1,3 +1,3 @@
-"""Controle térmico de power limit para GPUs NVIDIA."""
+"""Temperature-based power limit control for NVIDIA GPUs."""
 
 __version__ = "0.1.0"

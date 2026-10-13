@@ -1,4 +1,4 @@
-"""Configuração JSON estrita; apenas biblioteca padrão, Python 3.6+."""
+"""Strict JSON configuration using only the standard library, Python 3.6+."""
 
 import json
 import math
@@ -62,10 +62,10 @@ class Config(NamedTuple):
 
 def _object(value, allowed, location):
     if not isinstance(value, dict):
-        raise ConfigError("{} deve ser um objeto JSON".format(location))
+        raise ConfigError("{} must be a JSON object".format(location))
     unknown = set(value) - allowed
     if unknown:
-        raise ConfigError("{}: campos desconhecidos: {}".format(location, ", ".join(sorted(unknown))))
+        raise ConfigError("{}: unknown fields: {}".format(location, ", ".join(sorted(unknown))))
 
 
 def _number(data, key, low, high, integer=False):
@@ -73,8 +73,8 @@ def _number(data, key, low, high, integer=False):
     if (isinstance(value, bool) or not isinstance(value, (int, float))
             or not math.isfinite(value) or not low <= value <= high
             or (integer and not isinstance(value, int))):
-        kind = "inteiro" if integer else "número finito"
-        raise ConfigError("{} deve ser {} entre {} e {}".format(key, kind, low, high))
+        kind = "an integer" if integer else "a finite number"
+        raise ConfigError("{} must be {} between {} and {}".format(key, kind, low, high))
 
 
 def parse_config(data):
@@ -87,26 +87,26 @@ def parse_config(data):
     _object(defaults, GPU_KEYS, "defaults")
     entries = data.get("gpus")
     if not isinstance(entries, list) or not entries:
-        raise ConfigError("gpus deve ser uma lista não vazia de objetos com id explícito")
+        raise ConfigError("gpus must be a nonempty list of objects with an explicit id")
     result = []
     seen = set()
     for entry in entries:
         _object(entry, GPU_KEYS | {"id"}, "gpu")
         selector = entry.get("id")
         if isinstance(selector, bool) or not isinstance(selector, (int, str)):
-            raise ConfigError("id deve ser um índice NVIDIA não negativo ou UUID completo GPU-...")
+            raise ConfigError("id must be a nonnegative NVIDIA index or a full GPU-... UUID")
         selector = str(selector)
         if not (re.fullmatch(r"[0-9]+", selector) or UUID_PATTERN.fullmatch(selector)):
-            raise ConfigError("id inválido: {}".format(selector))
+            raise ConfigError("Invalid id: {}".format(selector))
         selector = str(int(selector)) if selector.isdigit() else selector.lower()
         if selector in seen:
-            raise ConfigError("GPU duplicada: {}".format(selector))
+            raise ConfigError("Duplicate GPU: {}".format(selector))
         seen.add(selector)
         values = dict(DEFAULTS, **defaults)
         values.update({key: value for key, value in entry.items() if key != "id"})
         missing = REQUIRED - set(values)
         if missing:
-            raise ConfigError("GPU {}: faltam {}".format(selector, ", ".join(sorted(missing))))
+            raise ConfigError("GPU {}: missing {}".format(selector, ", ".join(sorted(missing))))
         for key in ("power_min_w", "power_max_w", "step_up_w", "step_down_w", "fine_step_w"):
             _number(values, key, 1, 2000, integer=True)
         _number(values, "target_temp_c", 1, 110)
@@ -121,13 +121,13 @@ def parse_config(data):
         for key in ("settle_time_s", "trend_window_s", "recovery_s"):
             _number(values, key, poll, 3600)
         if values["power_min_w"] > values["power_max_w"]:
-            raise ConfigError("power_min_w deve ser <= power_max_w")
+            raise ConfigError("power_min_w must be <= power_max_w")
         if values["critical_temp_c"] <= values["target_temp_c"] + values["hysteresis_c"]:
-            raise ConfigError("critical_temp_c deve superar target_temp_c + hysteresis_c")
+            raise ConfigError("critical_temp_c must exceed target_temp_c + hysteresis_c")
         if values["fine_band_c"] <= values["hysteresis_c"]:
-            raise ConfigError("fine_band_c deve superar hysteresis_c")
+            raise ConfigError("fine_band_c must exceed hysteresis_c")
         if values["fine_step_w"] > min(values["step_up_w"], values["step_down_w"]):
-            raise ConfigError("fine_step_w não pode superar step_up_w ou step_down_w")
+            raise ConfigError("fine_step_w must not exceed step_up_w or step_down_w")
         result.append(GpuConfig(id=selector, **values))
     return Config(poll, timeout, tuple(result))
 
@@ -136,7 +136,7 @@ def _unique_object(pairs):
     result = {}
     for key, value in pairs:
         if key in result:
-            raise ConfigError("Campo JSON duplicado: {}".format(key))
+            raise ConfigError("Duplicate JSON field: {}".format(key))
         result[key] = value
     return result
 

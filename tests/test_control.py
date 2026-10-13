@@ -51,7 +51,7 @@ class ControlTests(unittest.TestCase):
     def test_settling_starts_at_confirmation_and_survives_ordinary_heat(self):
         controller = self.controller()
         self.warm(controller)
-        controller.changed(63)  # comando/driver levou 3 segundos
+        controller.changed(63)  # The command/driver took 3 seconds.
         for now in (65, 90, 120, 122):
             self.assertEqual(controller.decide(sample(temp=70, power=133), now).reason, "settling")
         self.assertEqual(controller.decide(sample(temp=70, power=133), 123).power_w, 128)
@@ -159,7 +159,7 @@ class ControlTests(unittest.TestCase):
         self.assertIsNone(controller.trend_c_per_min)
 
     def test_lagging_thermal_plant_converges_with_bounded_steps(self):
-        # Planta de primeira ordem: equilíbrio=25+0.25*PL e constante térmica 90s.
+        # First-order thermal model: equilibrium=25+0.25*PL, time constant=90s.
         controller = self.controller()
         power, temp = 100, 40
         changes, tail = [], []

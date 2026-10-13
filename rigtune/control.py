@@ -1,4 +1,4 @@
-"""Controle por passos, com acomodação térmica e estado independente por GPU."""
+"""Stepwise control with thermal settling and independent state for each GPU."""
 
 from collections import deque
 from typing import NamedTuple, Optional
@@ -22,7 +22,7 @@ class ThermalController:
         self.cool_since = None
 
     def changed(self, now):
-        """Só inicia a acomodação após confirmar o PL aplicado."""
+        """Start settling only after confirming the applied power limit."""
         self.last_change_at = now
         self.history.clear()
         self.trend_c_per_min = None
@@ -38,7 +38,7 @@ class ThermalController:
         self.loaded_since = None
 
     def _minimum(self, current, reason):
-        # Não aumenta um PL que já esteja abaixo do mínimo configurado.
+        # Do not raise a power limit already below the configured minimum.
         if current is not None and current <= self.config.power_min_w:
             return Decision(None, reason)
         return Decision(self.config.power_min_w, reason)
@@ -51,7 +51,7 @@ class ThermalController:
             self.filtered_temp_c += alpha * (temp - self.filtered_temp_c)
         self.history.append((now, temp))
         cutoff = now - self.config.trend_window_s
-        # Retém o ponto anterior à borda para cobrir a janela inteira.
+        # Retain the point before the cutoff to cover the entire window.
         while len(self.history) > 2 and self.history[1][0] <= cutoff:
             self.history.popleft()
         if len(self.history) < 2 or now - self.history[0][0] < self.config.trend_window_s:
@@ -72,7 +72,7 @@ class ThermalController:
         current = reading.power_limit_w if reading is not None else None
         temp = reading.temperature_c if reading is not None else None
 
-        # A leitura bruta crítica ignora média, espera e falhas no sensor de PL.
+        # A critical raw reading bypasses smoothing, settling, and PL sensor failures.
         if temp is not None and temp >= cfg.critical_temp_c:
             self.recovering = True
             self.cool_since = None
@@ -90,7 +90,7 @@ class ThermalController:
             if self.failures >= cfg.sensor_failure_limit or self.recovering:
                 self.recovering = True
                 return self._minimum(current, "sensor_failure_minimum")
-            # Mesmo sem temperatura válida, corrige um teto acima do permitido.
+            # Enforce the maximum even without a valid temperature reading.
             if current is not None and current > cfg.power_max_w:
                 return Decision(cfg.power_max_w, "enforce_maximum")
             return Decision(None, "sensor_unavailable")

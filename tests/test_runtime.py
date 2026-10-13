@@ -10,7 +10,7 @@ from tests.helpers import FakeBackend, UUID_A, UUID_B, configuration, sample
 
 class RuntimeTests(unittest.TestCase):
     def setUp(self):
-        # Alguns cenários geram erros intencionais; mantém a saída de testes legível.
+        # Some scenarios intentionally trigger errors; keep test output readable.
         self.logger = logging.getLogger("rigtune")
         self.old_disabled = self.logger.disabled
         self.logger.disabled = True
@@ -91,7 +91,7 @@ class RuntimeTests(unittest.TestCase):
             with GpuLocks([UUID_A], directory):
                 with self.assertRaises(ConfigError):
                     with GpuLocks([UUID_A], directory):
-                        self.fail("não deveria adquirir lock")
+                        self.fail("should not acquire the lock")
                 with GpuLocks([UUID_B], directory):
                     pass
             with GpuLocks([UUID_A, UUID_B], directory):

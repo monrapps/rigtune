@@ -1,0 +1,30 @@
+{
+  "poll_interval_s": 5,
+  "command_timeout_s": 10,
+  "defaults": {
+    "target_temp_c": 62,
+    "hysteresis_c": 0,
+    "critical_temp_c": 75,
+    "step_up_w": 3,
+    "step_down_w": 5,
+    "fine_step_w": 1,
+    "fine_band_c": 5,
+    "settle_time_s": 60,
+    "warmup_s": 60,
+    "trend_window_s": 30,
+    "max_rise_c_per_min": 0.5,
+    "recovery_s": 60
+  },
+  "gpus": [
+    {
+      "id": "GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf",
+      "power_min_w": 125,
+      "power_max_w": 300
+    },
+    {
+      "id": "GPU-fb324d7f-9c42-3c25-2327-efb172603c11",
+      "power_min_w": 100,
+      "power_max_w": 212
+    }
+  ]
+}

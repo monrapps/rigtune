@@ -148,15 +148,15 @@
     }
   ],
   "journal": [
-    "Oct 13 18:20:14 Hades systemd[1]: Started RigTune - controle termico de power limit NVIDIA.",
-    "Oct 13 18:20:14 Hades python3[2785570]: 2026-10-13 18:20:14,203 INFO RigTune 0.1.0: controle ativo, 2 GPU(s)",
-    "Oct 13 18:20:14 Hades python3[2785570]: 2026-10-13 18:20:14,244 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=59.0C media=59.0C tendencia=NoneC/min consumo=184.26W PL=185.0W -> manterW estado=warmup",
-    "Oct 13 18:20:14 Hades python3[2785570]: 2026-10-13 18:20:14,244 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=58.0C media=58.0C tendencia=NoneC/min consumo=174.76W PL=175.0W -> manterW estado=warmup",
-    "Oct 13 18:21:19 Hades python3[2785570]: 2026-10-13 18:21:19,249 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=59.0C media=59.0C tendencia=0.0C/min consumo=184.38W PL=185.0W -> 186.0W estado=increase_fine",
-    "Oct 13 18:21:19 Hades python3[2785570]: 2026-10-13 18:21:19,333 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmado em 186.0 W",
-    "Oct 13 18:21:19 Hades python3[2785570]: 2026-10-13 18:21:19,334 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=58.0C media=58.0C tendencia=0.0C/min consumo=174.74W PL=175.0W -> 176.0W estado=increase_fine",
-    "Oct 13 18:21:19 Hades python3[2785570]: 2026-10-13 18:21:19,400 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmado em 176.0 W",
-    "Oct 13 18:21:24 Hades python3[2785570]: 2026-10-13 18:21:24,236 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=59.0C media=59.0C tendencia=NoneC/min consumo=186.87W PL=186.0W -> manterW estado=settling",
-    "Oct 13 18:21:24 Hades python3[2785570]: 2026-10-13 18:21:24,236 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=58.0C media=58.0C tendencia=NoneC/min consumo=175.79W PL=176.0W -> manterW estado=settling"
+    "Oct 13 18:20:14 Hades systemd[1]: Started RigTune - thermal power limit control for NVIDIA GPUs.",
+    "Oct 13 18:20:14 Hades python3[2785570]: 2026-10-13 18:20:14,203 INFO RigTune 0.1.0: controller active, 2 GPU(s)",
+    "Oct 13 18:20:14 Hades python3[2785570]: 2026-10-13 18:20:14,244 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=59.0C average=59.0C trend=NoneC/min draw=184.26W PL=185.0W -> holdW state=warmup",
+    "Oct 13 18:20:14 Hades python3[2785570]: 2026-10-13 18:20:14,244 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=58.0C average=58.0C trend=NoneC/min draw=174.76W PL=175.0W -> holdW state=warmup",
+    "Oct 13 18:21:19 Hades python3[2785570]: 2026-10-13 18:21:19,249 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=59.0C average=59.0C trend=0.0C/min draw=184.38W PL=185.0W -> 186.0W state=increase_fine",
+    "Oct 13 18:21:19 Hades python3[2785570]: 2026-10-13 18:21:19,333 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf: PL confirmed at 186.0 W",
+    "Oct 13 18:21:19 Hades python3[2785570]: 2026-10-13 18:21:19,334 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=58.0C average=58.0C trend=0.0C/min draw=174.74W PL=175.0W -> 176.0W state=increase_fine",
+    "Oct 13 18:21:19 Hades python3[2785570]: 2026-10-13 18:21:19,400 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11: PL confirmed at 176.0 W",
+    "Oct 13 18:21:24 Hades python3[2785570]: 2026-10-13 18:21:24,236 INFO GPU-7fd18e06-9c16-10e4-2dda-bcb5e50248cf temp=59.0C average=59.0C trend=NoneC/min draw=186.87W PL=186.0W -> holdW state=settling",
+    "Oct 13 18:21:24 Hades python3[2785570]: 2026-10-13 18:21:24,236 INFO GPU-fb324d7f-9c42-3c25-2327-efb172603c11 temp=58.0C average=58.0C trend=NoneC/min draw=175.79W PL=176.0W -> holdW state=settling"
   ]
 }

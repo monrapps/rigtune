@@ -966,1295 +966,1295 @@
   "journal": [
     {
       "timestamp_us": "1791927155605902",
-      "message": "2026-10-13 18:32:35,605 INFO RigTune 0.1.0: controle ativo, 5 GPU(s)"
+      "message": "2026-10-13 18:32:35,605 INFO RigTune 0.1.0: controller active, 5 GPU(s)"
     },
     {
       "timestamp_us": "1791927155744305",
-      "message": "2026-10-13 18:32:35,744 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.0C tendencia=NoneC/min consumo=139.49W PL=140.0W -> manterW estado=warmup"
+      "message": "2026-10-13 18:32:35,744 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=59.0C trend=NoneC/min draw=139.49W PL=140.0W -> holdW state=warmup"
     },
     {
       "timestamp_us": "1791927155744741",
-      "message": "2026-10-13 18:32:35,744 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.0C tendencia=NoneC/min consumo=179.45W PL=180.0W -> manterW estado=warmup"
+      "message": "2026-10-13 18:32:35,744 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.0C trend=NoneC/min draw=179.45W PL=180.0W -> holdW state=warmup"
     },
     {
       "timestamp_us": "1791927155745098",
-      "message": "2026-10-13 18:32:35,744 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C media=59.0C tendencia=NoneC/min consumo=164.66W PL=165.0W -> manterW estado=warmup"
+      "message": "2026-10-13 18:32:35,744 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C average=59.0C trend=NoneC/min draw=164.66W PL=165.0W -> holdW state=warmup"
     },
     {
       "timestamp_us": "1791927155745418",
-      "message": "2026-10-13 18:32:35,745 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.0C tendencia=NoneC/min consumo=168.47W PL=170.0W -> manterW estado=warmup"
+      "message": "2026-10-13 18:32:35,745 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C average=59.0C trend=NoneC/min draw=168.47W PL=170.0W -> holdW state=warmup"
     },
     {
       "timestamp_us": "1791927155745723",
-      "message": "2026-10-13 18:32:35,745 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=NoneC/min consumo=148.0W PL=150.0W -> manterW estado=warmup"
+      "message": "2026-10-13 18:32:35,745 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=NoneC/min draw=148.0W PL=150.0W -> holdW state=warmup"
     },
     {
       "timestamp_us": "1791927220751794",
-      "message": "2026-10-13 18:33:40,751 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=58.79C tendencia=-0.86C/min consumo=139.62W PL=140.0W -> 141.0W estado=increase_fine"
+      "message": "2026-10-13 18:33:40,751 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=58.79C trend=-0.86C/min draw=139.62W PL=140.0W -> 141.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927220914314",
-      "message": "2026-10-13 18:33:40,914 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 141.0 W"
+      "message": "2026-10-13 18:33:40,914 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 141.0 W"
     },
     {
       "timestamp_us": "1791927220914569",
-      "message": "2026-10-13 18:33:40,914 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=58.62C tendencia=1.28C/min consumo=182.98W PL=180.0W -> manterW estado=temperature_still_rising"
+      "message": "2026-10-13 18:33:40,914 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=58.62C trend=1.28C/min draw=182.98W PL=180.0W -> holdW state=temperature_still_rising"
     },
     {
       "timestamp_us": "1791927220914879",
-      "message": "2026-10-13 18:33:40,914 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C media=59.0C tendencia=0.0C/min consumo=163.89W PL=165.0W -> 166.0W estado=increase_fine"
+      "message": "2026-10-13 18:33:40,914 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C average=59.0C trend=0.0C/min draw=163.89W PL=165.0W -> 166.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927221043435",
-      "message": "2026-10-13 18:33:41,043 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 166.0 W"
+      "message": "2026-10-13 18:33:41,043 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 166.0 W"
     },
     {
       "timestamp_us": "1791927221043680",
-      "message": "2026-10-13 18:33:41,043 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.0C tendencia=0.0C/min consumo=168.82W PL=170.0W -> 171.0W estado=increase_fine"
+      "message": "2026-10-13 18:33:41,043 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C average=59.0C trend=0.0C/min draw=168.82W PL=170.0W -> 171.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927221179885",
-      "message": "2026-10-13 18:33:41,179 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 171.0 W"
+      "message": "2026-10-13 18:33:41,179 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 171.0 W"
     },
     {
       "timestamp_us": "1791927221180103",
-      "message": "2026-10-13 18:33:41,179 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=0.0C/min consumo=147.95W PL=150.0W -> 151.0W estado=increase_fine"
+      "message": "2026-10-13 18:33:41,179 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=0.0C/min draw=147.95W PL=150.0W -> 151.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927221317427",
-      "message": "2026-10-13 18:33:41,317 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 151.0 W"
+      "message": "2026-10-13 18:33:41,317 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 151.0 W"
     },
     {
       "timestamp_us": "1791927225744864",
-      "message": "2026-10-13 18:33:45,744 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=58.85C tendencia=NoneC/min consumo=140.15W PL=141.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:33:45,744 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=58.85C trend=NoneC/min draw=140.15W PL=141.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927225747819",
-      "message": "2026-10-13 18:33:45,744 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=58.0C media=58.43C tendencia=0.01C/min consumo=177.33W PL=180.0W -> 181.0W estado=increase_fine"
+      "message": "2026-10-13 18:33:45,744 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=58.0C average=58.43C trend=0.01C/min draw=177.33W PL=180.0W -> 181.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927225852588",
-      "message": "2026-10-13 18:33:45,852 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 181.0 W"
+      "message": "2026-10-13 18:33:45,852 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 181.0 W"
     },
     {
       "timestamp_us": "1791927225852721",
-      "message": "2026-10-13 18:33:45,852 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C media=59.0C tendencia=NoneC/min consumo=166.97W PL=166.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:33:45,852 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C average=59.0C trend=NoneC/min draw=166.97W PL=166.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927225852863",
-      "message": "2026-10-13 18:33:45,852 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.0C tendencia=NoneC/min consumo=168.58W PL=171.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:33:45,852 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C average=59.0C trend=NoneC/min draw=168.58W PL=171.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927225852958",
-      "message": "2026-10-13 18:33:45,852 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=NoneC/min consumo=147.91W PL=151.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:33:45,852 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=NoneC/min draw=147.91W PL=151.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927230699686",
-      "message": "2026-10-13 18:33:50,699 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=58.6C tendencia=NoneC/min consumo=182.92W PL=181.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:33:50,699 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=58.6C trend=NoneC/min draw=182.92W PL=181.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927285737154",
-      "message": "2026-10-13 18:34:45,736 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.0C tendencia=0.0C/min consumo=140.97W PL=141.0W -> 142.0W estado=increase_fine"
+      "message": "2026-10-13 18:34:45,736 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=59.0C trend=0.0C/min draw=140.97W PL=141.0W -> 142.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927285918573",
-      "message": "2026-10-13 18:34:45,918 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 142.0 W"
+      "message": "2026-10-13 18:34:45,918 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 142.0 W"
     },
     {
       "timestamp_us": "1791927285927773",
-      "message": "2026-10-13 18:34:45,923 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=58.99C tendencia=0.0C/min consumo=177.55W PL=181.0W -> 182.0W estado=increase_fine"
+      "message": "2026-10-13 18:34:45,923 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=58.99C trend=0.0C/min draw=177.55W PL=181.0W -> 182.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927286043071",
-      "message": "2026-10-13 18:34:46,042 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 182.0 W"
+      "message": "2026-10-13 18:34:46,042 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 182.0 W"
     },
     {
       "timestamp_us": "1791927286043510",
-      "message": "2026-10-13 18:34:46,043 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C media=59.0C tendencia=0.0C/min consumo=167.44W PL=166.0W -> 167.0W estado=increase_fine"
+      "message": "2026-10-13 18:34:46,043 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C average=59.0C trend=0.0C/min draw=167.44W PL=166.0W -> 167.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927286157797",
-      "message": "2026-10-13 18:34:46,157 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 167.0 W"
+      "message": "2026-10-13 18:34:46,157 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 167.0 W"
     },
     {
       "timestamp_us": "1791927286157797",
-      "message": "2026-10-13 18:34:46,157 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.0C tendencia=0.0C/min consumo=168.98W PL=171.0W -> 172.0W estado=increase_fine"
+      "message": "2026-10-13 18:34:46,157 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C average=59.0C trend=0.0C/min draw=168.98W PL=171.0W -> 172.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927286280028",
-      "message": "2026-10-13 18:34:46,279 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 172.0 W"
+      "message": "2026-10-13 18:34:46,279 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 172.0 W"
     },
     {
       "timestamp_us": "1791927286280471",
-      "message": "2026-10-13 18:34:46,280 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=0.0C/min consumo=147.7W PL=151.0W -> 152.0W estado=increase_fine"
+      "message": "2026-10-13 18:34:46,280 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=0.0C/min draw=147.7W PL=151.0W -> 152.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927286404244",
-      "message": "2026-10-13 18:34:46,404 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 152.0 W"
+      "message": "2026-10-13 18:34:46,404 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 152.0 W"
     },
     {
       "timestamp_us": "1791927290752224",
-      "message": "2026-10-13 18:34:50,752 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.0C tendencia=NoneC/min consumo=141.91W PL=142.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:34:50,752 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=59.0C trend=NoneC/min draw=141.91W PL=142.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927290752825",
-      "message": "2026-10-13 18:34:50,752 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=58.99C tendencia=NoneC/min consumo=177.58W PL=182.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:34:50,752 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=58.99C trend=NoneC/min draw=177.58W PL=182.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927290752825",
-      "message": "2026-10-13 18:34:50,752 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C media=59.0C tendencia=NoneC/min consumo=167.53W PL=167.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:34:50,752 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C average=59.0C trend=NoneC/min draw=167.53W PL=167.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927290752825",
-      "message": "2026-10-13 18:34:50,752 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.0C tendencia=NoneC/min consumo=168.74W PL=172.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:34:50,752 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C average=59.0C trend=NoneC/min draw=168.74W PL=172.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927290752825",
-      "message": "2026-10-13 18:34:50,752 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=NoneC/min consumo=147.47W PL=152.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:34:50,752 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=NoneC/min draw=147.47W PL=152.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927350735449",
-      "message": "2026-10-13 18:35:50,734 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.0C tendencia=0.0C/min consumo=141.5W PL=142.0W -> 143.0W estado=increase_fine"
+      "message": "2026-10-13 18:35:50,734 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=59.0C trend=0.0C/min draw=141.5W PL=142.0W -> 143.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927350924995",
-      "message": "2026-10-13 18:35:50,924 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 143.0 W"
+      "message": "2026-10-13 18:35:50,924 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 143.0 W"
     },
     {
       "timestamp_us": "1791927350925219",
-      "message": "2026-10-13 18:35:50,925 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.0C tendencia=0.0C/min consumo=184.57W PL=182.0W -> 183.0W estado=increase_fine"
+      "message": "2026-10-13 18:35:50,925 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.0C trend=0.0C/min draw=184.57W PL=182.0W -> 183.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927351050050",
-      "message": "2026-10-13 18:35:51,049 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 183.0 W"
+      "message": "2026-10-13 18:35:51,049 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 183.0 W"
     },
     {
       "timestamp_us": "1791927351050198",
-      "message": "2026-10-13 18:35:51,050 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C media=59.55C tendencia=-0.01C/min consumo=164.4W PL=167.0W -> 168.0W estado=increase_fine"
+      "message": "2026-10-13 18:35:51,050 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=59.0C average=59.55C trend=-0.01C/min draw=164.4W PL=167.0W -> 168.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927351160452",
-      "message": "2026-10-13 18:35:51,159 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 168.0 W"
+      "message": "2026-10-13 18:35:51,159 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 168.0 W"
     },
     {
       "timestamp_us": "1791927351160452",
-      "message": "2026-10-13 18:35:51,159 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.0C tendencia=0.0C/min consumo=168.58W PL=172.0W -> 173.0W estado=increase_fine"
+      "message": "2026-10-13 18:35:51,159 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C average=59.0C trend=0.0C/min draw=168.58W PL=172.0W -> 173.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927351265089",
-      "message": "2026-10-13 18:35:51,264 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 173.0 W"
+      "message": "2026-10-13 18:35:51,264 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 173.0 W"
     },
     {
       "timestamp_us": "1791927351265326",
-      "message": "2026-10-13 18:35:51,265 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=0.0C/min consumo=148.0W PL=152.0W -> 153.0W estado=increase_fine"
+      "message": "2026-10-13 18:35:51,265 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=0.0C/min draw=148.0W PL=152.0W -> 153.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927351491129",
-      "message": "2026-10-13 18:35:51,490 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 153.0 W"
+      "message": "2026-10-13 18:35:51,490 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 153.0 W"
     },
     {
       "timestamp_us": "1791927355736372",
-      "message": "2026-10-13 18:35:55,736 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.0C tendencia=NoneC/min consumo=142.73W PL=143.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:35:55,736 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=59.0C trend=NoneC/min draw=142.73W PL=143.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927355743538",
-      "message": "2026-10-13 18:35:55,736 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.0C tendencia=NoneC/min consumo=184.42W PL=183.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:35:55,736 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.0C trend=NoneC/min draw=184.42W PL=183.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927355743538",
-      "message": "2026-10-13 18:35:55,736 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=59.69C tendencia=NoneC/min consumo=168.06W PL=168.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:35:55,736 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=59.69C trend=NoneC/min draw=168.06W PL=168.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927355743538",
-      "message": "2026-10-13 18:35:55,736 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.0C tendencia=NoneC/min consumo=172.57W PL=173.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:35:55,736 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C average=59.0C trend=NoneC/min draw=172.57W PL=173.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927355743538",
-      "message": "2026-10-13 18:35:55,736 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=NoneC/min consumo=150.5W PL=153.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:35:55,736 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=NoneC/min draw=150.5W PL=153.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927415740031",
-      "message": "2026-10-13 18:36:55,736 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.0C tendencia=0.0C/min consumo=142.81W PL=143.0W -> 144.0W estado=increase_fine"
+      "message": "2026-10-13 18:36:55,736 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=59.0C trend=0.0C/min draw=142.81W PL=143.0W -> 144.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927415909274",
-      "message": "2026-10-13 18:36:55,909 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 144.0 W"
+      "message": "2026-10-13 18:36:55,909 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 144.0 W"
     },
     {
       "timestamp_us": "1791927415909488",
-      "message": "2026-10-13 18:36:55,909 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.0C tendencia=0.0C/min consumo=181.59W PL=183.0W -> 184.0W estado=increase_fine"
+      "message": "2026-10-13 18:36:55,909 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.0C trend=0.0C/min draw=181.59W PL=183.0W -> 184.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927416043473",
-      "message": "2026-10-13 18:36:56,042 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 184.0 W"
+      "message": "2026-10-13 18:36:56,042 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 184.0 W"
     },
     {
       "timestamp_us": "1791927416043473",
-      "message": "2026-10-13 18:36:56,042 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.0C tendencia=0.0C/min consumo=168.07W PL=168.0W -> 169.0W estado=increase_fine"
+      "message": "2026-10-13 18:36:56,042 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.0C trend=0.0C/min draw=168.07W PL=168.0W -> 169.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927416163748",
-      "message": "2026-10-13 18:36:56,163 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 169.0 W"
+      "message": "2026-10-13 18:36:56,163 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 169.0 W"
     },
     {
       "timestamp_us": "1791927416170557",
-      "message": "2026-10-13 18:36:56,166 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.0C tendencia=0.0C/min consumo=174.14W PL=173.0W -> 174.0W estado=increase_fine"
+      "message": "2026-10-13 18:36:56,166 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C average=59.0C trend=0.0C/min draw=174.14W PL=173.0W -> 174.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927416296144",
-      "message": "2026-10-13 18:36:56,295 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 174.0 W"
+      "message": "2026-10-13 18:36:56,295 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 174.0 W"
     },
     {
       "timestamp_us": "1791927416296363",
-      "message": "2026-10-13 18:36:56,296 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=0.0C/min consumo=147.8W PL=153.0W -> 154.0W estado=increase_fine"
+      "message": "2026-10-13 18:36:56,296 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=0.0C/min draw=147.8W PL=153.0W -> 154.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927416409483",
-      "message": "2026-10-13 18:36:56,409 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 154.0 W"
+      "message": "2026-10-13 18:36:56,409 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 154.0 W"
     },
     {
       "timestamp_us": "1791927420720145",
-      "message": "2026-10-13 18:37:00,719 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.0C tendencia=NoneC/min consumo=144.25W PL=144.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:37:00,719 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=59.0C trend=NoneC/min draw=144.25W PL=144.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927420721114",
-      "message": "2026-10-13 18:37:00,720 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.0C tendencia=NoneC/min consumo=185.01W PL=184.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:37:00,720 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.0C trend=NoneC/min draw=185.01W PL=184.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927420721114",
-      "message": "2026-10-13 18:37:00,720 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.0C tendencia=NoneC/min consumo=167.88W PL=169.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:37:00,720 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.0C trend=NoneC/min draw=167.88W PL=169.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927420721114",
-      "message": "2026-10-13 18:37:00,720 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.0C tendencia=NoneC/min consumo=173.65W PL=174.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:37:00,720 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C average=59.0C trend=NoneC/min draw=173.65W PL=174.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927420721114",
-      "message": "2026-10-13 18:37:00,720 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=NoneC/min consumo=150.67W PL=154.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:37:00,720 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=NoneC/min draw=150.67W PL=154.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927480764233",
-      "message": "2026-10-13 18:38:00,764 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.0C tendencia=0.0C/min consumo=142.81W PL=144.0W -> 145.0W estado=increase_fine"
+      "message": "2026-10-13 18:38:00,764 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=59.0C trend=0.0C/min draw=142.81W PL=144.0W -> 145.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927480933275",
-      "message": "2026-10-13 18:38:00,933 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 145.0 W"
+      "message": "2026-10-13 18:38:00,933 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 145.0 W"
     },
     {
       "timestamp_us": "1791927480933933",
-      "message": "2026-10-13 18:38:00,933 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.0C tendencia=0.0C/min consumo=178.75W PL=184.0W -> 185.0W estado=increase_fine"
+      "message": "2026-10-13 18:38:00,933 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.0C trend=0.0C/min draw=178.75W PL=184.0W -> 185.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927481061940",
-      "message": "2026-10-13 18:38:01,061 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 185.0 W"
+      "message": "2026-10-13 18:38:01,061 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 185.0 W"
     },
     {
       "timestamp_us": "1791927481062089",
-      "message": "2026-10-13 18:38:01,061 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.0C tendencia=0.0C/min consumo=168.06W PL=169.0W -> 170.0W estado=increase_fine"
+      "message": "2026-10-13 18:38:01,061 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.0C trend=0.0C/min draw=168.06W PL=169.0W -> 170.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927481220585",
-      "message": "2026-10-13 18:38:01,219 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 170.0 W"
+      "message": "2026-10-13 18:38:01,219 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 170.0 W"
     },
     {
       "timestamp_us": "1791927481220585",
-      "message": "2026-10-13 18:38:01,220 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C media=59.07C tendencia=-0.42C/min consumo=175.33W PL=174.0W -> 175.0W estado=increase_fine"
+      "message": "2026-10-13 18:38:01,220 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=59.0C average=59.07C trend=-0.42C/min draw=175.33W PL=174.0W -> 175.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927481372634",
-      "message": "2026-10-13 18:38:01,371 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 175.0 W"
+      "message": "2026-10-13 18:38:01,371 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 175.0 W"
     },
     {
       "timestamp_us": "1791927481372634",
-      "message": "2026-10-13 18:38:01,372 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=0.0C/min consumo=150.67W PL=154.0W -> 155.0W estado=increase_fine"
+      "message": "2026-10-13 18:38:01,372 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=0.0C/min draw=150.67W PL=154.0W -> 155.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927481495465",
-      "message": "2026-10-13 18:38:01,495 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 155.0 W"
+      "message": "2026-10-13 18:38:01,495 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 155.0 W"
     },
     {
       "timestamp_us": "1791927485751538",
-      "message": "2026-10-13 18:38:05,751 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.0C tendencia=NoneC/min consumo=145.18W PL=145.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:38:05,751 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=59.0C trend=NoneC/min draw=145.18W PL=145.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927485752150",
-      "message": "2026-10-13 18:38:05,751 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.0C tendencia=NoneC/min consumo=177.43W PL=185.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:38:05,751 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.0C trend=NoneC/min draw=177.43W PL=185.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927485756341",
-      "message": "2026-10-13 18:38:05,751 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.0C tendencia=NoneC/min consumo=168.41W PL=170.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:38:05,751 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.0C trend=NoneC/min draw=168.41W PL=170.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927485756341",
-      "message": "2026-10-13 18:38:05,755 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=59.35C tendencia=NoneC/min consumo=175.77W PL=175.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:38:05,755 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=59.35C trend=NoneC/min draw=175.77W PL=175.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927485756341",
-      "message": "2026-10-13 18:38:05,756 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=NoneC/min consumo=150.33W PL=155.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:38:05,756 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=NoneC/min draw=150.33W PL=155.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927545752471",
-      "message": "2026-10-13 18:39:05,751 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.0C tendencia=0.0C/min consumo=145.24W PL=145.0W -> 146.0W estado=increase_fine"
+      "message": "2026-10-13 18:39:05,751 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=59.0C trend=0.0C/min draw=145.24W PL=145.0W -> 146.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927545859371",
-      "message": "2026-10-13 18:39:05,859 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 146.0 W"
+      "message": "2026-10-13 18:39:05,859 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 146.0 W"
     },
     {
       "timestamp_us": "1791927545860312",
-      "message": "2026-10-13 18:39:05,859 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.15C tendencia=0.42C/min consumo=187.41W PL=185.0W -> 186.0W estado=increase_fine"
+      "message": "2026-10-13 18:39:05,859 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.15C trend=0.42C/min draw=187.41W PL=185.0W -> 186.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927545964122",
-      "message": "2026-10-13 18:39:05,963 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 186.0 W"
+      "message": "2026-10-13 18:39:05,963 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 186.0 W"
     },
     {
       "timestamp_us": "1791927545965763",
-      "message": "2026-10-13 18:39:05,965 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.0C tendencia=0.0C/min consumo=167.85W PL=170.0W -> 171.0W estado=increase_fine"
+      "message": "2026-10-13 18:39:05,965 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.0C trend=0.0C/min draw=167.85W PL=170.0W -> 171.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927546096271",
-      "message": "2026-10-13 18:39:06,096 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 171.0 W"
+      "message": "2026-10-13 18:39:06,096 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 171.0 W"
     },
     {
       "timestamp_us": "1791927546096505",
-      "message": "2026-10-13 18:39:06,096 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=59.72C tendencia=-0.84C/min consumo=175.98W PL=175.0W -> 176.0W estado=increase_fine"
+      "message": "2026-10-13 18:39:06,096 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=59.72C trend=-0.84C/min draw=175.98W PL=175.0W -> 176.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927546204195",
-      "message": "2026-10-13 18:39:06,204 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 176.0 W"
+      "message": "2026-10-13 18:39:06,204 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 176.0 W"
     },
     {
       "timestamp_us": "1791927546205007",
-      "message": "2026-10-13 18:39:06,204 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=0.0C/min consumo=150.83W PL=155.0W -> 156.0W estado=increase_fine"
+      "message": "2026-10-13 18:39:06,204 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=0.0C/min draw=150.83W PL=155.0W -> 156.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927546307269",
-      "message": "2026-10-13 18:39:06,307 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 156.0 W"
+      "message": "2026-10-13 18:39:06,307 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 156.0 W"
     },
     {
       "timestamp_us": "1791927550784582",
-      "message": "2026-10-13 18:39:10,784 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.0C tendencia=NoneC/min consumo=145.25W PL=146.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:39:10,784 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=59.0C trend=NoneC/min draw=145.25W PL=146.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927550786759",
-      "message": "2026-10-13 18:39:10,786 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.1C tendencia=NoneC/min consumo=187.93W PL=186.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:39:10,786 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.1C trend=NoneC/min draw=187.93W PL=186.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927550786759",
-      "message": "2026-10-13 18:39:10,786 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.0C tendencia=NoneC/min consumo=170.75W PL=171.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:39:10,786 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.0C trend=NoneC/min draw=170.75W PL=171.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927550786759",
-      "message": "2026-10-13 18:39:10,786 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=59.8C tendencia=NoneC/min consumo=175.68W PL=176.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:39:10,786 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=59.8C trend=NoneC/min draw=175.68W PL=176.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927550786759",
-      "message": "2026-10-13 18:39:10,786 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=NoneC/min consumo=150.87W PL=156.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:39:10,786 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=NoneC/min draw=150.87W PL=156.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927610793137",
-      "message": "2026-10-13 18:40:10,792 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C media=59.9C tendencia=0.86C/min consumo=145.24W PL=146.0W -> manterW estado=temperature_still_rising"
+      "message": "2026-10-13 18:40:10,792 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C average=59.9C trend=0.86C/min draw=145.24W PL=146.0W -> holdW state=temperature_still_rising"
     },
     {
       "timestamp_us": "1791927610793137",
-      "message": "2026-10-13 18:40:10,792 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.03C tendencia=0.0C/min consumo=184.08W PL=186.0W -> 187.0W estado=increase_fine"
+      "message": "2026-10-13 18:40:10,792 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.03C trend=0.0C/min draw=184.08W PL=186.0W -> 187.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927610925545",
-      "message": "2026-10-13 18:40:10,925 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 187.0 W"
+      "message": "2026-10-13 18:40:10,925 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 187.0 W"
     },
     {
       "timestamp_us": "1791927610925802",
-      "message": "2026-10-13 18:40:10,925 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.0C tendencia=0.0C/min consumo=164.16W PL=171.0W -> 172.0W estado=increase_fine"
+      "message": "2026-10-13 18:40:10,925 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.0C trend=0.0C/min draw=164.16W PL=171.0W -> 172.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927611040097",
-      "message": "2026-10-13 18:40:11,039 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 172.0 W"
+      "message": "2026-10-13 18:40:11,039 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 172.0 W"
     },
     {
       "timestamp_us": "1791927611040364",
-      "message": "2026-10-13 18:40:11,040 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=60.0C tendencia=0.0C/min consumo=173.81W PL=176.0W -> 177.0W estado=increase_fine"
+      "message": "2026-10-13 18:40:11,040 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=60.0C trend=0.0C/min draw=173.81W PL=176.0W -> 177.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927611157025",
-      "message": "2026-10-13 18:40:11,156 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 177.0 W"
+      "message": "2026-10-13 18:40:11,156 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 177.0 W"
     },
     {
       "timestamp_us": "1791927611157261",
-      "message": "2026-10-13 18:40:11,157 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.0C tendencia=0.0C/min consumo=153.03W PL=156.0W -> 157.0W estado=increase_fine"
+      "message": "2026-10-13 18:40:11,157 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.0C trend=0.0C/min draw=153.03W PL=156.0W -> 157.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927611296820",
-      "message": "2026-10-13 18:40:11,296 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 157.0 W"
+      "message": "2026-10-13 18:40:11,296 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 157.0 W"
     },
     {
       "timestamp_us": "1791927615748607",
-      "message": "2026-10-13 18:40:15,748 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C media=59.63C tendencia=0.0C/min consumo=145.24W PL=146.0W -> 147.0W estado=increase_fine"
+      "message": "2026-10-13 18:40:15,748 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=59.0C average=59.63C trend=0.0C/min draw=145.24W PL=146.0W -> 147.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927615855728",
-      "message": "2026-10-13 18:40:15,855 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 147.0 W"
+      "message": "2026-10-13 18:40:15,855 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 147.0 W"
     },
     {
       "timestamp_us": "1791927615856005",
-      "message": "2026-10-13 18:40:15,855 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.02C tendencia=NoneC/min consumo=177.98W PL=187.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:40:15,855 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.02C trend=NoneC/min draw=177.98W PL=187.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927615856635",
-      "message": "2026-10-13 18:40:15,856 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.0C tendencia=NoneC/min consumo=168.39W PL=172.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:40:15,856 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.0C trend=NoneC/min draw=168.39W PL=172.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927615856635",
-      "message": "2026-10-13 18:40:15,856 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=60.0C tendencia=NoneC/min consumo=176.6W PL=177.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:40:15,856 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=60.0C trend=NoneC/min draw=176.6W PL=177.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927615856635",
-      "message": "2026-10-13 18:40:15,856 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C media=60.3C tendencia=NoneC/min consumo=153.85W PL=157.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:40:15,856 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C average=60.3C trend=NoneC/min draw=153.85W PL=157.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927620737519",
-      "message": "2026-10-13 18:40:20,737 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C media=59.74C tendencia=NoneC/min consumo=147.27W PL=147.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:40:20,737 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C average=59.74C trend=NoneC/min draw=147.27W PL=147.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927675736242",
-      "message": "2026-10-13 18:41:15,736 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.01C tendencia=0.0C/min consumo=184.76W PL=187.0W -> 188.0W estado=increase_fine"
+      "message": "2026-10-13 18:41:15,736 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.01C trend=0.0C/min draw=184.76W PL=187.0W -> 188.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927675852063",
-      "message": "2026-10-13 18:41:15,851 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 188.0 W"
+      "message": "2026-10-13 18:41:15,851 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 188.0 W"
     },
     {
       "timestamp_us": "1791927675852543",
-      "message": "2026-10-13 18:41:15,852 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.0C tendencia=0.0C/min consumo=172.0W PL=172.0W -> 173.0W estado=increase_fine"
+      "message": "2026-10-13 18:41:15,852 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.0C trend=0.0C/min draw=172.0W PL=172.0W -> 173.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927675960066",
-      "message": "2026-10-13 18:41:15,959 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 173.0 W"
+      "message": "2026-10-13 18:41:15,959 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 173.0 W"
     },
     {
       "timestamp_us": "1791927675960949",
-      "message": "2026-10-13 18:41:15,960 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=60.0C tendencia=0.0C/min consumo=176.42W PL=177.0W -> 178.0W estado=increase_fine"
+      "message": "2026-10-13 18:41:15,960 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=60.0C trend=0.0C/min draw=176.42W PL=177.0W -> 178.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927676061263",
-      "message": "2026-10-13 18:41:16,061 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 178.0 W"
+      "message": "2026-10-13 18:41:16,061 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 178.0 W"
     },
     {
       "timestamp_us": "1791927676061707",
-      "message": "2026-10-13 18:41:16,061 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.66C tendencia=-0.02C/min consumo=154.09W PL=157.0W -> 158.0W estado=increase_fine"
+      "message": "2026-10-13 18:41:16,061 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.66C trend=-0.02C/min draw=154.09W PL=157.0W -> 158.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927676162328",
-      "message": "2026-10-13 18:41:16,162 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 158.0 W"
+      "message": "2026-10-13 18:41:16,162 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 158.0 W"
     },
     {
       "timestamp_us": "1791927680772109",
-      "message": "2026-10-13 18:41:20,771 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C media=60.0C tendencia=0.0C/min consumo=146.27W PL=147.0W -> 148.0W estado=increase_fine"
+      "message": "2026-10-13 18:41:20,771 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C average=60.0C trend=0.0C/min draw=146.27W PL=147.0W -> 148.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927680981011",
-      "message": "2026-10-13 18:41:20,980 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 148.0 W"
+      "message": "2026-10-13 18:41:20,980 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 148.0 W"
     },
     {
       "timestamp_us": "1791927680981295",
-      "message": "2026-10-13 18:41:20,981 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.0C tendencia=NoneC/min consumo=185.07W PL=188.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:41:20,981 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.0C trend=NoneC/min draw=185.07W PL=188.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927680981443",
-      "message": "2026-10-13 18:41:20,981 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.0C tendencia=NoneC/min consumo=172.14W PL=173.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:41:20,981 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.0C trend=NoneC/min draw=172.14W PL=173.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927680981571",
-      "message": "2026-10-13 18:41:20,981 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=60.0C tendencia=NoneC/min consumo=178.7W PL=178.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:41:20,981 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=60.0C trend=NoneC/min draw=178.7W PL=178.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927680981691",
-      "message": "2026-10-13 18:41:20,981 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.46C tendencia=NoneC/min consumo=154.06W PL=158.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:41:20,981 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.46C trend=NoneC/min draw=154.06W PL=158.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927685742599",
-      "message": "2026-10-13 18:41:25,742 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C media=60.0C tendencia=NoneC/min consumo=148.26W PL=148.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:41:25,742 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C average=60.0C trend=NoneC/min draw=148.26W PL=148.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927740778528",
-      "message": "2026-10-13 18:42:20,778 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.15C tendencia=0.43C/min consumo=189.2W PL=188.0W -> 189.0W estado=increase_fine"
+      "message": "2026-10-13 18:42:20,778 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.15C trend=0.43C/min draw=189.2W PL=188.0W -> 189.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927740896100",
-      "message": "2026-10-13 18:42:20,895 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 189.0 W"
+      "message": "2026-10-13 18:42:20,895 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 189.0 W"
     },
     {
       "timestamp_us": "1791927740896100",
-      "message": "2026-10-13 18:42:20,895 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.18C tendencia=-0.85C/min consumo=172.14W PL=173.0W -> 174.0W estado=increase_fine"
+      "message": "2026-10-13 18:42:20,895 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.18C trend=-0.85C/min draw=172.14W PL=173.0W -> 174.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927741025674",
-      "message": "2026-10-13 18:42:21,025 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 174.0 W"
+      "message": "2026-10-13 18:42:21,025 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 174.0 W"
     },
     {
       "timestamp_us": "1791927741025828",
-      "message": "2026-10-13 18:42:21,025 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=60.0C tendencia=0.0C/min consumo=176.23W PL=178.0W -> 179.0W estado=increase_fine"
+      "message": "2026-10-13 18:42:21,025 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=60.0C trend=0.0C/min draw=176.23W PL=178.0W -> 179.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927741152520",
-      "message": "2026-10-13 18:42:21,152 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 179.0 W"
+      "message": "2026-10-13 18:42:21,152 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 179.0 W"
     },
     {
       "timestamp_us": "1791927741152764",
-      "message": "2026-10-13 18:42:21,152 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.61C tendencia=-0.44C/min consumo=154.09W PL=158.0W -> 159.0W estado=increase_fine"
+      "message": "2026-10-13 18:42:21,152 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.61C trend=-0.44C/min draw=154.09W PL=158.0W -> 159.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927741280381",
-      "message": "2026-10-13 18:42:21,280 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 159.0 W"
+      "message": "2026-10-13 18:42:21,280 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 159.0 W"
     },
     {
       "timestamp_us": "1791927745740909",
-      "message": "2026-10-13 18:42:25,740 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C media=60.0C tendencia=0.0C/min consumo=147.47W PL=148.0W -> 149.0W estado=increase_fine"
+      "message": "2026-10-13 18:42:25,740 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C average=60.0C trend=0.0C/min draw=147.47W PL=148.0W -> 149.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927745872273",
-      "message": "2026-10-13 18:42:25,872 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 149.0 W"
+      "message": "2026-10-13 18:42:25,872 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 149.0 W"
     },
     {
       "timestamp_us": "1791927745872469",
-      "message": "2026-10-13 18:42:25,872 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C media=59.1C tendencia=NoneC/min consumo=189.34W PL=189.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:42:25,872 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=59.0C average=59.1C trend=NoneC/min draw=189.34W PL=189.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927745872553",
-      "message": "2026-10-13 18:42:25,872 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C media=60.43C tendencia=NoneC/min consumo=171.74W PL=174.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:42:25,872 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C average=60.43C trend=NoneC/min draw=171.74W PL=174.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927745872634",
-      "message": "2026-10-13 18:42:25,872 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=60.0C tendencia=NoneC/min consumo=176.56W PL=179.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:42:25,872 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=60.0C trend=NoneC/min draw=176.56W PL=179.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927745872768",
-      "message": "2026-10-13 18:42:25,872 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C media=60.43C tendencia=NoneC/min consumo=153.3W PL=159.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:42:25,872 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=60.0C average=60.43C trend=NoneC/min draw=153.3W PL=159.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927750752780",
-      "message": "2026-10-13 18:42:30,752 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C media=60.0C tendencia=NoneC/min consumo=148.7W PL=149.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:42:30,752 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C average=60.0C trend=NoneC/min draw=148.7W PL=149.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927805736637",
-      "message": "2026-10-13 18:43:25,735 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C media=59.84C tendencia=2.14C/min consumo=188.37W PL=189.0W -> manterW estado=temperature_still_rising"
+      "message": "2026-10-13 18:43:25,735 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C average=59.84C trend=2.14C/min draw=188.37W PL=189.0W -> holdW state=temperature_still_rising"
     },
     {
       "timestamp_us": "1791927805736637",
-      "message": "2026-10-13 18:43:25,735 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.22C tendencia=0.72C/min consumo=171.88W PL=174.0W -> manterW estado=temperature_still_rising"
+      "message": "2026-10-13 18:43:25,735 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.22C trend=0.72C/min draw=171.88W PL=174.0W -> holdW state=temperature_still_rising"
     },
     {
       "timestamp_us": "1791927805736637",
-      "message": "2026-10-13 18:43:25,736 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=60.0C tendencia=0.0C/min consumo=180.21W PL=179.0W -> 180.0W estado=increase_fine"
+      "message": "2026-10-13 18:43:25,736 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=60.0C trend=0.0C/min draw=180.21W PL=179.0W -> 180.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927805842294",
-      "message": "2026-10-13 18:43:25,841 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 180.0 W"
+      "message": "2026-10-13 18:43:25,841 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 180.0 W"
     },
     {
       "timestamp_us": "1791927805842294",
-      "message": "2026-10-13 18:43:25,842 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C media=60.81C tendencia=1.28C/min consumo=154.01W PL=159.0W -> manterW estado=temperature_still_rising"
+      "message": "2026-10-13 18:43:25,842 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C average=60.81C trend=1.28C/min draw=154.01W PL=159.0W -> holdW state=temperature_still_rising"
     },
     {
       "timestamp_us": "1791927810752549",
-      "message": "2026-10-13 18:43:30,752 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C media=60.0C tendencia=0.0C/min consumo=148.36W PL=149.0W -> 150.0W estado=increase_fine"
+      "message": "2026-10-13 18:43:30,752 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C average=60.0C trend=0.0C/min draw=148.36W PL=149.0W -> 150.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927810905603",
-      "message": "2026-10-13 18:43:30,905 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 150.0 W"
+      "message": "2026-10-13 18:43:30,905 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 150.0 W"
     },
     {
       "timestamp_us": "1791927810906222",
-      "message": "2026-10-13 18:43:30,905 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.16C tendencia=0.43C/min consumo=172.15W PL=174.0W -> 175.0W estado=increase_fine"
+      "message": "2026-10-13 18:43:30,905 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.16C trend=0.43C/min draw=172.15W PL=174.0W -> 175.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927811026487",
-      "message": "2026-10-13 18:43:31,026 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 175.0 W"
+      "message": "2026-10-13 18:43:31,026 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 175.0 W"
     },
     {
       "timestamp_us": "1791927811026632",
-      "message": "2026-10-13 18:43:31,026 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=60.0C tendencia=NoneC/min consumo=180.12W PL=180.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:43:31,026 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=60.0C trend=NoneC/min draw=180.12W PL=180.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927811026710",
-      "message": "2026-10-13 18:43:31,026 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C media=60.87C tendencia=0.42C/min consumo=153.62W PL=159.0W -> 160.0W estado=increase_fine"
+      "message": "2026-10-13 18:43:31,026 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C average=60.87C trend=0.42C/min draw=153.62W PL=159.0W -> 160.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927811168753",
-      "message": "2026-10-13 18:43:31,168 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 160.0 W"
+      "message": "2026-10-13 18:43:31,168 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 160.0 W"
     },
     {
       "timestamp_us": "1791927815755408",
-      "message": "2026-10-13 18:43:35,754 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C media=60.0C tendencia=NoneC/min consumo=148.85W PL=150.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:43:35,754 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C average=60.0C trend=NoneC/min draw=148.85W PL=150.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927815755408",
-      "message": "2026-10-13 18:43:35,754 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C media=59.92C tendencia=0.0C/min consumo=184.09W PL=189.0W -> 190.0W estado=increase_fine"
+      "message": "2026-10-13 18:43:35,754 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C average=59.92C trend=0.0C/min draw=184.09W PL=189.0W -> 190.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927815861040",
-      "message": "2026-10-13 18:43:35,860 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 190.0 W"
+      "message": "2026-10-13 18:43:35,860 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 190.0 W"
     },
     {
       "timestamp_us": "1791927815861562",
-      "message": "2026-10-13 18:43:35,861 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C media=60.11C tendencia=NoneC/min consumo=172.53W PL=175.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:43:35,861 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=60.0C average=60.11C trend=NoneC/min draw=172.53W PL=175.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927815861884",
-      "message": "2026-10-13 18:43:35,861 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C media=60.91C tendencia=NoneC/min consumo=153.89W PL=160.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:43:35,861 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C average=60.91C trend=NoneC/min draw=153.89W PL=160.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927820767600",
-      "message": "2026-10-13 18:43:40,767 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C media=59.94C tendencia=NoneC/min consumo=189.56W PL=190.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:43:40,767 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C average=59.94C trend=NoneC/min draw=189.56W PL=190.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927870741042",
-      "message": "2026-10-13 18:44:30,740 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=60.0C tendencia=0.0C/min consumo=179.7W PL=180.0W -> 181.0W estado=increase_fine"
+      "message": "2026-10-13 18:44:30,740 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=60.0C trend=0.0C/min draw=179.7W PL=180.0W -> 181.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927870855365",
-      "message": "2026-10-13 18:44:30,855 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 181.0 W"
+      "message": "2026-10-13 18:44:30,855 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 181.0 W"
     },
     {
       "timestamp_us": "1791927875744414",
-      "message": "2026-10-13 18:44:35,743 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C media=60.0C tendencia=0.0C/min consumo=149.52W PL=150.0W -> 151.0W estado=increase_fine"
+      "message": "2026-10-13 18:44:35,743 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=60.0C average=60.0C trend=0.0C/min draw=149.52W PL=150.0W -> 151.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927875858320",
-      "message": "2026-10-13 18:44:35,857 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 151.0 W"
+      "message": "2026-10-13 18:44:35,857 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 151.0 W"
     },
     {
       "timestamp_us": "1791927875858320",
-      "message": "2026-10-13 18:44:35,857 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C media=60.92C tendencia=0.0C/min consumo=172.25W PL=175.0W -> 176.0W estado=increase_fine"
+      "message": "2026-10-13 18:44:35,857 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C average=60.92C trend=0.0C/min draw=172.25W PL=175.0W -> 176.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927875976079",
-      "message": "2026-10-13 18:44:35,975 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 176.0 W"
+      "message": "2026-10-13 18:44:35,975 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 176.0 W"
     },
     {
       "timestamp_us": "1791927875977105",
-      "message": "2026-10-13 18:44:35,976 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=60.0C tendencia=NoneC/min consumo=179.38W PL=181.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:44:35,976 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=60.0C trend=NoneC/min draw=179.38W PL=181.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927875977105",
-      "message": "2026-10-13 18:44:35,976 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C media=61.0C tendencia=0.0C/min consumo=153.98W PL=160.0W -> 161.0W estado=increase_fine"
+      "message": "2026-10-13 18:44:35,976 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C average=61.0C trend=0.0C/min draw=153.98W PL=160.0W -> 161.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927876085056",
-      "message": "2026-10-13 18:44:36,084 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 161.0 W"
+      "message": "2026-10-13 18:44:36,084 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 161.0 W"
     },
     {
       "timestamp_us": "1791927880761023",
-      "message": "2026-10-13 18:44:40,760 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C media=60.3C tendencia=NoneC/min consumo=150.9W PL=151.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:44:40,760 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C average=60.3C trend=NoneC/min draw=150.9W PL=151.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927880761023",
-      "message": "2026-10-13 18:44:40,760 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C media=60.0C tendencia=0.0C/min consumo=189.91W PL=190.0W -> 191.0W estado=increase_fine"
+      "message": "2026-10-13 18:44:40,760 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C average=60.0C trend=0.0C/min draw=189.91W PL=190.0W -> 191.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927880875996",
-      "message": "2026-10-13 18:44:40,875 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 191.0 W"
+      "message": "2026-10-13 18:44:40,875 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 191.0 W"
     },
     {
       "timestamp_us": "1791927880876225",
-      "message": "2026-10-13 18:44:40,876 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C media=60.94C tendencia=NoneC/min consumo=171.57W PL=176.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:44:40,876 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C average=60.94C trend=NoneC/min draw=171.57W PL=176.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927880876225",
-      "message": "2026-10-13 18:44:40,876 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C media=61.0C tendencia=NoneC/min consumo=153.98W PL=161.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:44:40,876 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C average=61.0C trend=NoneC/min draw=153.98W PL=161.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927885764367",
-      "message": "2026-10-13 18:44:45,764 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C media=60.0C tendencia=NoneC/min consumo=189.82W PL=191.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:44:45,764 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C average=60.0C trend=NoneC/min draw=189.82W PL=191.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927935744632",
-      "message": "2026-10-13 18:45:35,744 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=60.81C tendencia=1.71C/min consumo=180.49W PL=181.0W -> manterW estado=temperature_still_rising"
+      "message": "2026-10-13 18:45:35,744 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=60.81C trend=1.71C/min draw=180.49W PL=181.0W -> holdW state=temperature_still_rising"
     },
     {
       "timestamp_us": "1791927940737867",
-      "message": "2026-10-13 18:45:40,737 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C media=60.99C tendencia=0.0C/min consumo=149.99W PL=151.0W -> 152.0W estado=increase_fine"
+      "message": "2026-10-13 18:45:40,737 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C average=60.99C trend=0.0C/min draw=149.99W PL=151.0W -> 152.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927940855212",
-      "message": "2026-10-13 18:45:40,855 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 152.0 W"
+      "message": "2026-10-13 18:45:40,855 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 152.0 W"
     },
     {
       "timestamp_us": "1791927940855492",
-      "message": "2026-10-13 18:45:40,855 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C media=61.0C tendencia=0.0C/min consumo=176.9W PL=176.0W -> 177.0W estado=increase_fine"
+      "message": "2026-10-13 18:45:40,855 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C average=61.0C trend=0.0C/min draw=176.9W PL=176.0W -> 177.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927940978702",
-      "message": "2026-10-13 18:45:40,978 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 177.0 W"
+      "message": "2026-10-13 18:45:40,978 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 177.0 W"
     },
     {
       "timestamp_us": "1791927940978971",
-      "message": "2026-10-13 18:45:40,978 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C media=61.0C tendencia=0.0C/min consumo=153.87W PL=161.0W -> 162.0W estado=increase_fine"
+      "message": "2026-10-13 18:45:40,978 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C average=61.0C trend=0.0C/min draw=153.87W PL=161.0W -> 162.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927941107800",
-      "message": "2026-10-13 18:45:41,103 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 162.0 W"
+      "message": "2026-10-13 18:45:41,103 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 162.0 W"
     },
     {
       "timestamp_us": "1791927945734190",
-      "message": "2026-10-13 18:45:45,734 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C media=60.99C tendencia=NoneC/min consumo=151.87W PL=152.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:45:45,734 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C average=60.99C trend=NoneC/min draw=151.87W PL=152.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927945735395",
-      "message": "2026-10-13 18:45:45,734 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C media=60.0C tendencia=0.0C/min consumo=188.68W PL=191.0W -> 192.0W estado=increase_fine"
+      "message": "2026-10-13 18:45:45,734 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C average=60.0C trend=0.0C/min draw=188.68W PL=191.0W -> 192.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927945849720",
-      "message": "2026-10-13 18:45:45,849 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 192.0 W"
+      "message": "2026-10-13 18:45:45,849 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 192.0 W"
     },
     {
       "timestamp_us": "1791927945849957",
-      "message": "2026-10-13 18:45:45,849 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C media=61.0C tendencia=NoneC/min consumo=172.46W PL=177.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:45:45,849 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C average=61.0C trend=NoneC/min draw=172.46W PL=177.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927945850078",
-      "message": "2026-10-13 18:45:45,849 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C media=61.0C tendencia=NoneC/min consumo=153.25W PL=162.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:45:45,849 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C average=61.0C trend=NoneC/min draw=153.25W PL=162.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927950776766",
-      "message": "2026-10-13 18:45:50,776 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C media=60.0C tendencia=NoneC/min consumo=189.8W PL=192.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:45:50,776 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C average=60.0C trend=NoneC/min draw=189.8W PL=192.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791927950777388",
-      "message": "2026-10-13 18:45:50,776 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=60.93C tendencia=0.0C/min consumo=180.6W PL=181.0W -> 182.0W estado=increase_fine"
+      "message": "2026-10-13 18:45:50,776 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=60.93C trend=0.0C/min draw=180.6W PL=181.0W -> 182.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791927950931083",
-      "message": "2026-10-13 18:45:50,930 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 182.0 W"
+      "message": "2026-10-13 18:45:50,930 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 182.0 W"
     },
     {
       "timestamp_us": "1791927955740627",
-      "message": "2026-10-13 18:45:55,740 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=60.95C tendencia=NoneC/min consumo=180.31W PL=182.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:45:55,740 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=60.95C trend=NoneC/min draw=180.31W PL=182.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928005771186",
-      "message": "2026-10-13 18:46:45,770 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C media=61.0C tendencia=0.0C/min consumo=151.58W PL=152.0W -> 153.0W estado=increase_fine"
+      "message": "2026-10-13 18:46:45,770 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C average=61.0C trend=0.0C/min draw=151.58W PL=152.0W -> 153.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928005886021",
-      "message": "2026-10-13 18:46:45,885 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 153.0 W"
+      "message": "2026-10-13 18:46:45,885 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 153.0 W"
     },
     {
       "timestamp_us": "1791928005886021",
-      "message": "2026-10-13 18:46:45,885 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C media=60.0C tendencia=0.0C/min consumo=189.13W PL=192.0W -> 193.0W estado=increase_fine"
+      "message": "2026-10-13 18:46:45,885 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C average=60.0C trend=0.0C/min draw=189.13W PL=192.0W -> 193.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928006020053",
-      "message": "2026-10-13 18:46:46,019 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 193.0 W"
+      "message": "2026-10-13 18:46:46,019 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 193.0 W"
     },
     {
       "timestamp_us": "1791928006020519",
-      "message": "2026-10-13 18:46:46,020 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C media=61.0C tendencia=0.0C/min consumo=175.0W PL=177.0W -> 178.0W estado=increase_fine"
+      "message": "2026-10-13 18:46:46,020 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C average=61.0C trend=0.0C/min draw=175.0W PL=177.0W -> 178.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928006174306",
-      "message": "2026-10-13 18:46:46,173 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 178.0 W"
+      "message": "2026-10-13 18:46:46,173 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 178.0 W"
     },
     {
       "timestamp_us": "1791928006174306",
-      "message": "2026-10-13 18:46:46,173 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C media=61.0C tendencia=0.0C/min consumo=153.81W PL=162.0W -> 163.0W estado=increase_fine"
+      "message": "2026-10-13 18:46:46,173 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C average=61.0C trend=0.0C/min draw=153.81W PL=162.0W -> 163.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928006285793",
-      "message": "2026-10-13 18:46:46,285 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 163.0 W"
+      "message": "2026-10-13 18:46:46,285 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 163.0 W"
     },
     {
       "timestamp_us": "1791928010781551",
-      "message": "2026-10-13 18:46:50,781 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C media=61.0C tendencia=NoneC/min consumo=152.28W PL=153.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:46:50,781 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C average=61.0C trend=NoneC/min draw=152.28W PL=153.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928010782221",
-      "message": "2026-10-13 18:46:50,781 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C media=60.0C tendencia=NoneC/min consumo=188.63W PL=193.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:46:50,781 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C average=60.0C trend=NoneC/min draw=188.63W PL=193.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928010782221",
-      "message": "2026-10-13 18:46:50,781 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C media=61.0C tendencia=NoneC/min consumo=177.49W PL=178.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:46:50,781 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C average=61.0C trend=NoneC/min draw=177.49W PL=178.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928010782221",
-      "message": "2026-10-13 18:46:50,781 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C media=61.0C tendencia=NoneC/min consumo=160.0W PL=163.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:46:50,781 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C average=61.0C trend=NoneC/min draw=160.0W PL=163.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928015756446",
-      "message": "2026-10-13 18:46:55,756 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=60.88C tendencia=0.57C/min consumo=180.54W PL=182.0W -> manterW estado=temperature_still_rising"
+      "message": "2026-10-13 18:46:55,756 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=60.88C trend=0.57C/min draw=180.54W PL=182.0W -> holdW state=temperature_still_rising"
     },
     {
       "timestamp_us": "1791928030782442",
-      "message": "2026-10-13 18:47:10,781 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=60.96C tendencia=0.0C/min consumo=180.66W PL=182.0W -> 183.0W estado=increase_fine"
+      "message": "2026-10-13 18:47:10,781 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=60.96C trend=0.0C/min draw=180.66W PL=182.0W -> 183.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928030928119",
-      "message": "2026-10-13 18:47:10,927 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 183.0 W"
+      "message": "2026-10-13 18:47:10,927 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 183.0 W"
     },
     {
       "timestamp_us": "1791928035747279",
-      "message": "2026-10-13 18:47:15,747 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=60.97C tendencia=NoneC/min consumo=179.46W PL=183.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:47:15,747 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=60.97C trend=NoneC/min draw=179.46W PL=183.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928070774286",
-      "message": "2026-10-13 18:47:50,774 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C media=61.0C tendencia=0.0C/min consumo=151.93W PL=153.0W -> 154.0W estado=increase_fine"
+      "message": "2026-10-13 18:47:50,774 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C average=61.0C trend=0.0C/min draw=151.93W PL=153.0W -> 154.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928070905459",
-      "message": "2026-10-13 18:47:50,905 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 154.0 W"
+      "message": "2026-10-13 18:47:50,905 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 154.0 W"
     },
     {
       "timestamp_us": "1791928070905692",
-      "message": "2026-10-13 18:47:50,905 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C media=60.0C tendencia=0.0C/min consumo=189.54W PL=193.0W -> 194.0W estado=increase_fine"
+      "message": "2026-10-13 18:47:50,905 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C average=60.0C trend=0.0C/min draw=189.54W PL=193.0W -> 194.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928071047718",
-      "message": "2026-10-13 18:47:51,047 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 194.0 W"
+      "message": "2026-10-13 18:47:51,047 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 194.0 W"
     },
     {
       "timestamp_us": "1791928071047991",
-      "message": "2026-10-13 18:47:51,047 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=61.62C tendencia=0.43C/min consumo=173.67W PL=178.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:47:51,047 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=61.62C trend=0.43C/min draw=173.67W PL=178.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928071048133",
-      "message": "2026-10-13 18:47:51,048 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=61.52C tendencia=1.28C/min consumo=160.08W PL=163.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:47:51,048 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=61.52C trend=1.28C/min draw=160.08W PL=163.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928075749164",
-      "message": "2026-10-13 18:47:55,749 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C media=61.0C tendencia=NoneC/min consumo=153.66W PL=154.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:47:55,749 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C average=61.0C trend=NoneC/min draw=153.66W PL=154.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928075750657",
-      "message": "2026-10-13 18:47:55,749 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C media=60.0C tendencia=NoneC/min consumo=189.94W PL=194.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:47:55,749 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=60.0C average=60.0C trend=NoneC/min draw=189.94W PL=194.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928075750657",
-      "message": "2026-10-13 18:47:55,750 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C media=61.43C tendencia=-0.27C/min consumo=178.9W PL=178.0W -> 179.0W estado=increase_fine"
+      "message": "2026-10-13 18:47:55,750 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C average=61.43C trend=-0.27C/min draw=178.9W PL=178.0W -> 179.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928075884077",
-      "message": "2026-10-13 18:47:55,883 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 179.0 W"
+      "message": "2026-10-13 18:47:55,883 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 179.0 W"
     },
     {
       "timestamp_us": "1791928075885174",
-      "message": "2026-10-13 18:47:55,884 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C media=61.36C tendencia=0.01C/min consumo=160.17W PL=163.0W -> 164.0W estado=increase_fine"
+      "message": "2026-10-13 18:47:55,884 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C average=61.36C trend=0.01C/min draw=160.17W PL=163.0W -> 164.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928076015440",
-      "message": "2026-10-13 18:47:56,015 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 164.0 W"
+      "message": "2026-10-13 18:47:56,015 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 164.0 W"
     },
     {
       "timestamp_us": "1791928080773522",
-      "message": "2026-10-13 18:48:00,773 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=61.6C tendencia=NoneC/min consumo=179.3W PL=179.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:48:00,773 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=61.6C trend=NoneC/min draw=179.3W PL=179.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928080774047",
-      "message": "2026-10-13 18:48:00,773 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=61.55C tendencia=NoneC/min consumo=160.17W PL=164.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:48:00,773 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=61.55C trend=NoneC/min draw=160.17W PL=164.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928095773700",
-      "message": "2026-10-13 18:48:15,773 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=60.39C tendencia=1.14C/min consumo=180.54W PL=183.0W -> manterW estado=temperature_still_rising"
+      "message": "2026-10-13 18:48:15,773 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=60.39C trend=1.14C/min draw=180.54W PL=183.0W -> holdW state=temperature_still_rising"
     },
     {
       "timestamp_us": "1791928105757761",
-      "message": "2026-10-13 18:48:25,757 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C media=60.19C tendencia=-0.01C/min consumo=179.85W PL=183.0W -> 184.0W estado=increase_fine"
+      "message": "2026-10-13 18:48:25,757 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=60.0C average=60.19C trend=-0.01C/min draw=179.85W PL=183.0W -> 184.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928105876552",
-      "message": "2026-10-13 18:48:25,876 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 184.0 W"
+      "message": "2026-10-13 18:48:25,876 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 184.0 W"
     },
     {
       "timestamp_us": "1791928110784192",
-      "message": "2026-10-13 18:48:30,784 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=60.44C tendencia=NoneC/min consumo=187.07W PL=184.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:48:30,784 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=60.44C trend=NoneC/min draw=187.07W PL=184.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928135760587",
-      "message": "2026-10-13 18:48:55,760 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C media=61.0C tendencia=0.0C/min consumo=153.95W PL=154.0W -> 155.0W estado=increase_fine"
+      "message": "2026-10-13 18:48:55,760 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C average=61.0C trend=0.0C/min draw=153.95W PL=154.0W -> 155.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928135922116",
-      "message": "2026-10-13 18:48:55,921 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmado em 155.0 W"
+      "message": "2026-10-13 18:48:55,921 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af: PL confirmed at 155.0 W"
     },
     {
       "timestamp_us": "1791928135922116",
-      "message": "2026-10-13 18:48:55,921 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=60.44C tendencia=0.0C/min consumo=196.37W PL=194.0W -> 195.0W estado=increase_fine"
+      "message": "2026-10-13 18:48:55,921 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=60.44C trend=0.0C/min draw=196.37W PL=194.0W -> 195.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928136028308",
-      "message": "2026-10-13 18:48:56,028 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 195.0 W"
+      "message": "2026-10-13 18:48:56,028 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 195.0 W"
     },
     {
       "timestamp_us": "1791928136028962",
-      "message": "2026-10-13 18:48:56,028 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=61.99C tendencia=0.0C/min consumo=179.52W PL=179.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:48:56,028 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=61.99C trend=0.0C/min draw=179.52W PL=179.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928136028962",
-      "message": "2026-10-13 18:48:56,028 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=61.97C tendencia=0.0C/min consumo=160.17W PL=164.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:48:56,028 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=61.97C trend=0.0C/min draw=160.17W PL=164.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928140764466",
-      "message": "2026-10-13 18:49:00,764 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C media=61.0C tendencia=NoneC/min consumo=154.66W PL=155.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:49:00,764 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=61.0C average=61.0C trend=NoneC/min draw=154.66W PL=155.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928140764977",
-      "message": "2026-10-13 18:49:00,764 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=60.61C tendencia=NoneC/min consumo=196.93W PL=195.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:49:00,764 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=60.61C trend=NoneC/min draw=196.93W PL=195.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928150777912",
-      "message": "2026-10-13 18:49:10,777 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C media=61.7C tendencia=-1.0C/min consumo=174.33W PL=179.0W -> 180.0W estado=increase_fine"
+      "message": "2026-10-13 18:49:10,777 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=61.0C average=61.7C trend=-1.0C/min draw=174.33W PL=179.0W -> 180.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928150913159",
-      "message": "2026-10-13 18:49:10,911 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmado em 180.0 W"
+      "message": "2026-10-13 18:49:10,911 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e: PL confirmed at 180.0 W"
     },
     {
       "timestamp_us": "1791928155801098",
-      "message": "2026-10-13 18:49:15,800 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=61.79C tendencia=NoneC/min consumo=179.92W PL=180.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:49:15,800 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=61.79C trend=NoneC/min draw=179.92W PL=180.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928170761054",
-      "message": "2026-10-13 18:49:30,760 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=60.64C tendencia=-1.15C/min consumo=180.26W PL=184.0W -> 185.0W estado=increase_fine"
+      "message": "2026-10-13 18:49:30,760 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=60.64C trend=-1.15C/min draw=180.26W PL=184.0W -> 185.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928170881803",
-      "message": "2026-10-13 18:49:30,881 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 185.0 W"
+      "message": "2026-10-13 18:49:30,881 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 185.0 W"
     },
     {
       "timestamp_us": "1791928175788440",
-      "message": "2026-10-13 18:49:35,788 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=60.74C tendencia=NoneC/min consumo=187.29W PL=185.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:49:35,788 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=60.74C trend=NoneC/min draw=187.29W PL=185.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928200789336",
-      "message": "2026-10-13 18:50:00,789 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C media=61.97C tendencia=0.0C/min consumo=154.98W PL=155.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:50:00,789 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C average=61.97C trend=0.0C/min draw=154.98W PL=155.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928200790026",
-      "message": "2026-10-13 18:50:00,789 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=60.99C tendencia=0.0C/min consumo=197.04W PL=195.0W -> 196.0W estado=increase_fine"
+      "message": "2026-10-13 18:50:00,789 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=60.99C trend=0.0C/min draw=197.04W PL=195.0W -> 196.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928200928371",
-      "message": "2026-10-13 18:50:00,928 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 196.0 W"
+      "message": "2026-10-13 18:50:00,928 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 196.0 W"
     },
     {
       "timestamp_us": "1791928200928877",
-      "message": "2026-10-13 18:50:00,928 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=62.0C tendencia=0.0C/min consumo=160.2W PL=164.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:50:00,928 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=62.0C trend=0.0C/min draw=160.2W PL=164.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928205796067",
-      "message": "2026-10-13 18:50:05,795 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=61.0C tendencia=NoneC/min consumo=198.53W PL=196.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:50:05,795 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=61.0C trend=NoneC/min draw=198.53W PL=196.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928215780213",
-      "message": "2026-10-13 18:50:15,780 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=62.0C tendencia=0.0C/min consumo=179.87W PL=180.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:50:15,780 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=62.0C trend=0.0C/min draw=179.87W PL=180.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928235767736",
-      "message": "2026-10-13 18:50:35,763 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=61.0C tendencia=0.0C/min consumo=180.81W PL=185.0W -> 186.0W estado=increase_fine"
+      "message": "2026-10-13 18:50:35,763 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=61.0C trend=0.0C/min draw=180.81W PL=185.0W -> 186.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928235876175",
-      "message": "2026-10-13 18:50:35,875 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 186.0 W"
+      "message": "2026-10-13 18:50:35,875 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 186.0 W"
     },
     {
       "timestamp_us": "1791928240769357",
-      "message": "2026-10-13 18:50:40,769 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=61.0C tendencia=NoneC/min consumo=187.82W PL=186.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:50:40,769 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=61.0C trend=NoneC/min draw=187.82W PL=186.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928265799739",
-      "message": "2026-10-13 18:51:05,799 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C media=62.0C tendencia=0.0C/min consumo=155.04W PL=155.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:51:05,799 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C average=62.0C trend=0.0C/min draw=155.04W PL=155.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928265799739",
-      "message": "2026-10-13 18:51:05,799 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=61.0C tendencia=0.0C/min consumo=189.23W PL=196.0W -> 197.0W estado=increase_fine"
+      "message": "2026-10-13 18:51:05,799 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=61.0C trend=0.0C/min draw=189.23W PL=196.0W -> 197.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928265915084",
-      "message": "2026-10-13 18:51:05,914 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 197.0 W"
+      "message": "2026-10-13 18:51:05,914 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 197.0 W"
     },
     {
       "timestamp_us": "1791928265915592",
-      "message": "2026-10-13 18:51:05,915 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=62.0C tendencia=0.0C/min consumo=159.96W PL=164.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:51:05,915 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=62.0C trend=0.0C/min draw=159.96W PL=164.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928270824176",
-      "message": "2026-10-13 18:51:10,824 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=61.0C tendencia=NoneC/min consumo=190.09W PL=197.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:51:10,824 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=61.0C trend=NoneC/min draw=190.09W PL=197.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928275799770",
-      "message": "2026-10-13 18:51:15,799 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=62.0C tendencia=0.0C/min consumo=179.98W PL=180.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:51:15,799 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=62.0C trend=0.0C/min draw=179.98W PL=180.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928300782087",
-      "message": "2026-10-13 18:51:40,781 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=61.0C tendencia=0.0C/min consumo=187.45W PL=186.0W -> 187.0W estado=increase_fine"
+      "message": "2026-10-13 18:51:40,781 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=61.0C trend=0.0C/min draw=187.45W PL=186.0W -> 187.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928300913886",
-      "message": "2026-10-13 18:51:40,913 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 187.0 W"
+      "message": "2026-10-13 18:51:40,913 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 187.0 W"
     },
     {
       "timestamp_us": "1791928305852192",
-      "message": "2026-10-13 18:51:45,851 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=61.0C tendencia=NoneC/min consumo=182.09W PL=187.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:51:45,851 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=61.0C trend=NoneC/min draw=182.09W PL=187.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928325800702",
-      "message": "2026-10-13 18:52:05,800 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C media=62.0C tendencia=0.0C/min consumo=153.98W PL=155.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:52:05,800 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C average=62.0C trend=0.0C/min draw=153.98W PL=155.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928330825977",
-      "message": "2026-10-13 18:52:10,825 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=61.0C tendencia=0.0C/min consumo=190.61W PL=197.0W -> 198.0W estado=increase_fine"
+      "message": "2026-10-13 18:52:10,825 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=61.0C trend=0.0C/min draw=190.61W PL=197.0W -> 198.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928330956678",
-      "message": "2026-10-13 18:52:10,956 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 198.0 W"
+      "message": "2026-10-13 18:52:10,956 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 198.0 W"
     },
     {
       "timestamp_us": "1791928330956678",
-      "message": "2026-10-13 18:52:10,956 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=62.0C tendencia=0.0C/min consumo=160.2W PL=164.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:52:10,956 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=62.0C trend=0.0C/min draw=160.2W PL=164.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928335832329",
-      "message": "2026-10-13 18:52:15,831 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=61.0C tendencia=NoneC/min consumo=190.48W PL=198.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:52:15,831 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=61.0C trend=NoneC/min draw=190.48W PL=198.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928335832329",
-      "message": "2026-10-13 18:52:15,831 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=62.0C tendencia=0.0C/min consumo=179.44W PL=180.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:52:15,831 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=62.0C trend=0.0C/min draw=179.44W PL=180.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928365781405",
-      "message": "2026-10-13 18:52:45,781 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=61.0C tendencia=0.0C/min consumo=187.78W PL=187.0W -> 188.0W estado=increase_fine"
+      "message": "2026-10-13 18:52:45,781 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=61.0C trend=0.0C/min draw=187.78W PL=187.0W -> 188.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928365991431",
-      "message": "2026-10-13 18:52:45,991 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 188.0 W"
+      "message": "2026-10-13 18:52:45,991 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 188.0 W"
     },
     {
       "timestamp_us": "1791928370823817",
-      "message": "2026-10-13 18:52:50,823 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=61.0C tendencia=NoneC/min consumo=187.81W PL=188.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:52:50,823 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=61.0C trend=NoneC/min draw=187.81W PL=188.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928385809155",
-      "message": "2026-10-13 18:53:05,808 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C media=62.0C tendencia=0.0C/min consumo=154.65W PL=155.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:53:05,808 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C average=62.0C trend=0.0C/min draw=154.65W PL=155.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928395829497",
-      "message": "2026-10-13 18:53:15,829 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=61.0C tendencia=0.0C/min consumo=200.07W PL=198.0W -> 199.0W estado=increase_fine"
+      "message": "2026-10-13 18:53:15,829 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=61.0C trend=0.0C/min draw=200.07W PL=198.0W -> 199.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928395945061",
-      "message": "2026-10-13 18:53:15,944 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 199.0 W"
+      "message": "2026-10-13 18:53:15,944 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 199.0 W"
     },
     {
       "timestamp_us": "1791928395945061",
-      "message": "2026-10-13 18:53:15,944 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=62.0C tendencia=0.0C/min consumo=179.79W PL=180.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:53:15,944 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=62.0C trend=0.0C/min draw=179.79W PL=180.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928395945061",
-      "message": "2026-10-13 18:53:15,944 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=62.0C tendencia=0.0C/min consumo=160.2W PL=164.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:53:15,944 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=62.0C trend=0.0C/min draw=160.2W PL=164.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928400812005",
-      "message": "2026-10-13 18:53:20,811 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=61.0C tendencia=NoneC/min consumo=201.52W PL=199.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:53:20,811 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=61.0C trend=NoneC/min draw=201.52W PL=199.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928430794094",
-      "message": "2026-10-13 18:53:50,793 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=61.0C tendencia=0.0C/min consumo=180.99W PL=188.0W -> 189.0W estado=increase_fine"
+      "message": "2026-10-13 18:53:50,793 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=61.0C trend=0.0C/min draw=180.99W PL=188.0W -> 189.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928430919967",
-      "message": "2026-10-13 18:53:50,919 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 189.0 W"
+      "message": "2026-10-13 18:53:50,919 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 189.0 W"
     },
     {
       "timestamp_us": "1791928435783216",
-      "message": "2026-10-13 18:53:55,782 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C media=61.3C tendencia=NoneC/min consumo=188.49W PL=189.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:53:55,782 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C average=61.3C trend=NoneC/min draw=188.49W PL=189.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928450798849",
-      "message": "2026-10-13 18:54:10,798 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C media=62.0C tendencia=0.0C/min consumo=154.97W PL=155.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:54:10,798 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C average=62.0C trend=0.0C/min draw=154.97W PL=155.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928460831953",
-      "message": "2026-10-13 18:54:20,831 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C media=61.3C tendencia=1.29C/min consumo=201.66W PL=199.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:54:20,831 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C average=61.3C trend=1.29C/min draw=201.66W PL=199.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928460832676",
-      "message": "2026-10-13 18:54:20,832 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=62.0C tendencia=0.0C/min consumo=180.46W PL=180.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:54:20,832 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=62.0C trend=0.0C/min draw=180.46W PL=180.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928460832676",
-      "message": "2026-10-13 18:54:20,832 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=62.0C tendencia=0.0C/min consumo=160.2W PL=164.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:54:20,832 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=62.0C trend=0.0C/min draw=160.2W PL=164.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928470791112",
-      "message": "2026-10-13 18:54:30,790 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=61.36C tendencia=1.14C/min consumo=201.66W PL=199.0W -> manterW estado=temperature_still_rising"
+      "message": "2026-10-13 18:54:30,790 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=61.36C trend=1.14C/min draw=201.66W PL=199.0W -> holdW state=temperature_still_rising"
     },
     {
       "timestamp_us": "1791928475808359",
-      "message": "2026-10-13 18:54:35,808 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C media=61.55C tendencia=1.72C/min consumo=201.13W PL=199.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:54:35,808 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C average=61.55C trend=1.72C/min draw=201.13W PL=199.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928480796079",
-      "message": "2026-10-13 18:54:40,795 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=61.38C tendencia=0.72C/min consumo=201.32W PL=199.0W -> manterW estado=temperature_still_rising"
+      "message": "2026-10-13 18:54:40,795 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=61.38C trend=0.72C/min draw=201.32W PL=199.0W -> holdW state=temperature_still_rising"
     },
     {
       "timestamp_us": "1791928485820662",
-      "message": "2026-10-13 18:54:45,820 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=61.27C tendencia=-0.85C/min consumo=197.9W PL=199.0W -> 200.0W estado=increase_fine"
+      "message": "2026-10-13 18:54:45,820 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=61.27C trend=-0.85C/min draw=197.9W PL=199.0W -> 200.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928485927832",
-      "message": "2026-10-13 18:54:45,927 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 200.0 W"
+      "message": "2026-10-13 18:54:45,927 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 200.0 W"
     },
     {
       "timestamp_us": "1791928490831163",
-      "message": "2026-10-13 18:54:50,830 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C media=61.49C tendencia=NoneC/min consumo=197.92W PL=200.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:54:50,830 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C average=61.49C trend=NoneC/min draw=197.92W PL=200.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928495805644",
-      "message": "2026-10-13 18:54:55,805 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C media=61.96C tendencia=0.71C/min consumo=188.46W PL=189.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:54:55,805 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C average=61.96C trend=0.71C/min draw=188.46W PL=189.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928505804759",
-      "message": "2026-10-13 18:55:05,804 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=61.68C tendencia=-1.0C/min consumo=188.74W PL=189.0W -> 190.0W estado=increase_fine"
+      "message": "2026-10-13 18:55:05,804 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=61.68C trend=-1.0C/min draw=188.74W PL=189.0W -> 190.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928505917547",
-      "message": "2026-10-13 18:55:05,917 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 190.0 W"
+      "message": "2026-10-13 18:55:05,917 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 190.0 W"
     },
     {
       "timestamp_us": "1791928510800099",
-      "message": "2026-10-13 18:55:10,799 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C media=62.0C tendencia=0.0C/min consumo=153.84W PL=155.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:55:10,799 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C average=62.0C trend=0.0C/min draw=153.84W PL=155.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928510800099",
-      "message": "2026-10-13 18:55:10,799 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C media=61.77C tendencia=NoneC/min consumo=188.71W PL=190.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:55:10,799 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C average=61.77C trend=NoneC/min draw=188.71W PL=190.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928525791251",
-      "message": "2026-10-13 18:55:25,791 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=62.0C tendencia=0.0C/min consumo=180.27W PL=180.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:55:25,791 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=62.0C trend=0.0C/min draw=180.27W PL=180.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928525792195",
-      "message": "2026-10-13 18:55:25,791 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=62.0C tendencia=0.0C/min consumo=160.02W PL=164.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:55:25,791 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=62.0C trend=0.0C/min draw=160.02W PL=164.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928550814194",
-      "message": "2026-10-13 18:55:50,814 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C media=61.99C tendencia=0.0C/min consumo=197.96W PL=200.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:55:50,814 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C average=61.99C trend=0.0C/min draw=197.96W PL=200.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928570803288",
-      "message": "2026-10-13 18:56:10,802 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C media=62.0C tendencia=0.0C/min consumo=154.22W PL=155.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:56:10,802 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C average=62.0C trend=0.0C/min draw=154.22W PL=155.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928570803288",
-      "message": "2026-10-13 18:56:10,803 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C media=61.99C tendencia=0.0C/min consumo=187.82W PL=190.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:56:10,803 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C average=61.99C trend=0.0C/min draw=187.82W PL=190.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928575803745",
-      "message": "2026-10-13 18:56:15,800 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C media=61.69C tendencia=-1.0C/min consumo=188.62W PL=190.0W -> 191.0W estado=increase_fine"
+      "message": "2026-10-13 18:56:15,800 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=61.0C average=61.69C trend=-1.0C/min draw=188.62W PL=190.0W -> 191.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928575914680",
-      "message": "2026-10-13 18:56:15,914 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmado em 191.0 W"
+      "message": "2026-10-13 18:56:15,914 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602: PL confirmed at 191.0 W"
     },
     {
       "timestamp_us": "1791928580832304",
-      "message": "2026-10-13 18:56:20,832 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=61.7C tendencia=-1.29C/min consumo=199.25W PL=200.0W -> 201.0W estado=increase_fine"
+      "message": "2026-10-13 18:56:20,832 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=61.7C trend=-1.29C/min draw=199.25W PL=200.0W -> 201.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928580947837",
-      "message": "2026-10-13 18:56:20,947 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 201.0 W"
+      "message": "2026-10-13 18:56:20,947 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 201.0 W"
     },
     {
       "timestamp_us": "1791928580948174",
-      "message": "2026-10-13 18:56:20,947 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C media=61.79C tendencia=NoneC/min consumo=188.55W PL=191.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:56:20,947 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C average=61.79C trend=NoneC/min draw=188.55W PL=191.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928585857390",
-      "message": "2026-10-13 18:56:25,856 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C media=61.79C tendencia=NoneC/min consumo=201.8W PL=201.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:56:25,856 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C average=61.79C trend=NoneC/min draw=201.8W PL=201.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928585857390",
-      "message": "2026-10-13 18:56:25,857 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=62.0C tendencia=0.0C/min consumo=178.07W PL=180.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:56:25,857 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=62.0C trend=0.0C/min draw=178.07W PL=180.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928585857390",
-      "message": "2026-10-13 18:56:25,857 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=62.0C tendencia=0.0C/min consumo=160.28W PL=164.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:56:25,857 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=62.0C trend=0.0C/min draw=160.28W PL=164.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928605803884",
-      "message": "2026-10-13 18:56:45,801 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C media=61.7C tendencia=-1.0C/min consumo=159.09W PL=164.0W -> 165.0W estado=increase_fine"
+      "message": "2026-10-13 18:56:45,801 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=61.0C average=61.7C trend=-1.0C/min draw=159.09W PL=164.0W -> 165.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928605935124",
-      "message": "2026-10-13 18:56:45,934 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmado em 165.0 W"
+      "message": "2026-10-13 18:56:45,934 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559: PL confirmed at 165.0 W"
     },
     {
       "timestamp_us": "1791928610805520",
-      "message": "2026-10-13 18:56:50,805 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=61.79C tendencia=NoneC/min consumo=160.31W PL=165.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:56:50,805 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=61.79C trend=NoneC/min draw=160.31W PL=165.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928630811341",
-      "message": "2026-10-13 18:57:10,811 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C media=62.0C tendencia=0.0C/min consumo=154.75W PL=155.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:57:10,811 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C average=62.0C trend=0.0C/min draw=154.75W PL=155.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928640796638",
-      "message": "2026-10-13 18:57:20,796 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C media=61.98C tendencia=0.0C/min consumo=188.59W PL=191.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:57:20,796 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C average=61.98C trend=0.0C/min draw=188.59W PL=191.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928645823052",
-      "message": "2026-10-13 18:57:25,822 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C media=61.32C tendencia=-2.57C/min consumo=201.29W PL=201.0W -> 202.0W estado=increase_fine"
+      "message": "2026-10-13 18:57:25,822 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=61.0C average=61.32C trend=-2.57C/min draw=201.29W PL=201.0W -> 202.0W state=increase_fine"
     },
     {
       "timestamp_us": "1791928645953874",
-      "message": "2026-10-13 18:57:25,953 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmado em 202.0 W"
+      "message": "2026-10-13 18:57:25,953 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598: PL confirmed at 202.0 W"
     },
     {
       "timestamp_us": "1791928645953874",
-      "message": "2026-10-13 18:57:25,953 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=62.0C tendencia=0.0C/min consumo=179.92W PL=180.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:57:25,953 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=62.0C trend=0.0C/min draw=179.92W PL=180.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928650821703",
-      "message": "2026-10-13 18:57:30,821 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C media=61.52C tendencia=NoneC/min consumo=201.4W PL=202.0W -> manterW estado=settling"
+      "message": "2026-10-13 18:57:30,821 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C average=61.52C trend=NoneC/min draw=201.4W PL=202.0W -> holdW state=settling"
     },
     {
       "timestamp_us": "1791928670817849",
-      "message": "2026-10-13 18:57:50,817 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=62.0C tendencia=0.0C/min consumo=160.25W PL=165.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:57:50,817 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=62.0C trend=0.0C/min draw=160.25W PL=165.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928690819824",
-      "message": "2026-10-13 18:58:10,819 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C media=62.0C tendencia=0.0C/min consumo=154.12W PL=155.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:58:10,819 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C average=62.0C trend=0.0C/min draw=154.12W PL=155.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928700808353",
-      "message": "2026-10-13 18:58:20,808 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C media=62.0C tendencia=0.0C/min consumo=188.94W PL=191.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:58:20,808 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C average=62.0C trend=0.0C/min draw=188.94W PL=191.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928710828958",
-      "message": "2026-10-13 18:58:30,828 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C media=61.99C tendencia=0.0C/min consumo=201.98W PL=202.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:58:30,828 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C average=61.99C trend=0.0C/min draw=201.98W PL=202.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928710829507",
-      "message": "2026-10-13 18:58:30,829 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=62.0C tendencia=0.0C/min consumo=175.43W PL=180.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:58:30,829 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=62.0C trend=0.0C/min draw=175.43W PL=180.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928735832372",
-      "message": "2026-10-13 18:58:55,832 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C media=62.0C tendencia=0.0C/min consumo=159.38W PL=165.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:58:55,832 INFO GPU-f39aaba8-3d83-61fe-eb3b-fe4e3310d559 temp=62.0C average=62.0C trend=0.0C/min draw=159.38W PL=165.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928755827115",
-      "message": "2026-10-13 18:59:15,826 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C media=62.0C tendencia=0.0C/min consumo=154.13W PL=155.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:59:15,826 INFO GPU-b97a5cd8-1081-b366-4cab-4d13d84e29af temp=62.0C average=62.0C trend=0.0C/min draw=154.13W PL=155.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928760833196",
-      "message": "2026-10-13 18:59:20,832 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C media=62.0C tendencia=0.0C/min consumo=188.75W PL=191.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:59:20,832 INFO GPU-14ea80ad-29a4-4891-002d-4f55793d5602 temp=62.0C average=62.0C trend=0.0C/min draw=188.75W PL=191.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928775827906",
-      "message": "2026-10-13 18:59:35,827 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C media=62.0C tendencia=0.0C/min consumo=198.26W PL=202.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:59:35,827 INFO GPU-b810c61a-7473-7122-7af3-3e71afaf0598 temp=62.0C average=62.0C trend=0.0C/min draw=198.26W PL=202.0W -> holdW state=in_target_band"
     },
     {
       "timestamp_us": "1791928775828384",
-      "message": "2026-10-13 18:59:35,827 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C media=62.0C tendencia=0.0C/min consumo=175.22W PL=180.0W -> manterW estado=in_target_band"
+      "message": "2026-10-13 18:59:35,827 INFO GPU-4f4b5968-b467-9670-83dd-37a4f5a8488e temp=62.0C average=62.0C trend=0.0C/min draw=175.22W PL=180.0W -> holdW state=in_target_band"
     }
   ],
   "kernel_errors": [],

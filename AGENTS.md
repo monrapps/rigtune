@@ -11,7 +11,7 @@ RigTune controls NVIDIA GPU power limits on Linux/HiveOS. The objective is maxim
 - `rigtune/runtime.py`: GPU selection, process locks, and execution; `cli.py` and `__main__.py`: command entry points.
 - `tests/`: standard-library tests and shared fake hardware in `helpers.py`.
 - `config*.example.json`: generic and rig-specific configuration templates.
-- `deploy/rigtune.service`: systemd unit; `reports/`: historical hardware observations; `README.md`: Portuguese usage documentation.
+- `deploy/rigtune.service`: systemd unit; `reports/`: historical hardware observations; `README.md`: usage documentation.
 
 ## Build, Test, and Development Commands
 
@@ -26,7 +26,7 @@ Run from the repository root. There is no build step or external Python dependen
 
 ## Coding Style and Naming Conventions
 
-Use four-space indentation, `snake_case` functions and variables, `PascalCase` classes, and uppercase constants. Preserve unit suffixes such as `_w`, `_c`, and `_s`. Follow existing Portuguese messages and docstrings. No formatter or linter is configured. Keep controller decisions separate from subprocess and filesystem operations.
+Use four-space indentation, `snake_case` functions and variables, `PascalCase` classes, and uppercase constants. Preserve unit suffixes such as `_w`, `_c`, and `_s`. Write documentation, comments, docstrings, and program messages in English. Match the user's language in conversation. No formatter or linter is configured. Keep controller decisions separate from subprocess and filesystem operations.
 
 ## Testing Guidelines
 
@@ -34,7 +34,7 @@ Use `unittest`, `unittest.mock`, `test_*.py` modules, and descriptive `test_*` m
 
 ## Commit and Pull Request Guidelines
 
-This checkout has no Git metadata, so historical conventions cannot be verified. Use focused commits with imperative subjects, such as `Allow zero temperature tolerance`. PRs should explain behavior changes, reference relevant issues, list validation commands/results, and describe deployment impact. Update affected examples and documentation.
+Follow the existing Conventional Commits style with English, lowercase imperative subjects, such as `fix: handle missing temperature readings`. Keep commits focused. PRs should explain behavior changes, reference relevant issues, list validation commands/results, and describe deployment impact. Update affected examples and documentation.
 
 ## Configuration and Deployment
 

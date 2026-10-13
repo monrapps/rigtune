@@ -1,0 +1,26 @@
+{
+  "poll_interval_s": 5,
+  "command_timeout_s": 10,
+  "defaults": {
+    "power_min_w": 100,
+    "power_max_w": 160,
+    "target_temp_c": 60,
+    "hysteresis_c": 2,
+    "critical_temp_c": 75,
+    "step_up_w": 3,
+    "step_down_w": 5,
+    "fine_step_w": 1,
+    "fine_band_c": 5,
+    "settle_time_s": 60,
+    "warmup_s": 60,
+    "trend_window_s": 30,
+    "max_rise_c_per_min": 0.5,
+    "temperature_alpha": 0.3,
+    "min_utilization_pct": 30,
+    "sensor_failure_limit": 3,
+    "recovery_s": 60
+  },
+  "gpus": [
+    { "id": 0 }
+  ]
+}

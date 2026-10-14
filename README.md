@@ -12,6 +12,22 @@ power limits. Reaching the exact target also depends on workload, ventilation,
 and ambient temperature. The miner tracks hashrate; RigTune controls the power
 limit (PL) using temperature.
 
+## Releases and Versioning
+
+Stable releases are published from `main` on the
+[GitHub releases page](https://github.com/monrapps/rigtune/releases).
+Versions use `YYYY.MM.DD`, based on the release date in America/Sao_Paulo.
+Additional releases on the same day append an increasing revision, starting
+with `.1` (for example, `2026.10.13.1`). Git tags use a `v` prefix.
+
+The initial release is **2026.10.13**. See [CHANGELOG.md](CHANGELOG.md) for changes.
+Each release includes a source archive and `SHA256SUMS`. Download both into
+the same directory, verify with `sha256sum -c SHA256SUMS`, then extract the
+archive and follow the installation instructions below. Existing installations
+must retain `/etc/rigtune/config.json`; back up the installed package and service
+unit before stopping the service, replacing them, and restarting it.
+Check the installed version from `/opt/rigtune` with `python3 -m rigtune --version`.
+
 ## Quick Start
 
 Clone the project and run commands from its directory:

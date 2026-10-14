@@ -1,0 +1,13 @@
+{
+  "farm_id": 123456,
+  "worker_id": 12345678,
+  "api_url": "https://api2.hiveos.farm/api/v2",
+  "token_file": "/etc/rigtune/hiveos.token",
+  "status_file": "/run/rigtune/status.json",
+  "rig_config_file": "/hive-config/rig.conf",
+  "sync_interval_s": 60,
+  "retry_max_s": 900,
+  "request_timeout_s": 10,
+  "max_status_age_s": 20,
+  "max_worker_age_s": 120
+}

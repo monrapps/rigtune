@@ -1,0 +1,46 @@
+{
+  "host": "Hades",
+  "timestamp_utc": "2026-10-14T00:34:14Z",
+  "test_type": "Real GPU reads with an isolated status fixture and a loopback-only fake HiveOS API",
+  "cloud_api_updated": false,
+  "hardware_writes_by_test": 0,
+  "controller_restarted": false,
+  "gpu_count": 2,
+  "preview": {
+    "oc_apply_mode": "merge",
+    "oc_config": {
+      "default": {
+        "nvidia": {
+          "power_limit": "190 183"
+        }
+      }
+    }
+  },
+  "update": {
+    "oc_apply_mode": "merge",
+    "oc_config": {
+      "default": {
+        "nvidia": {
+          "power_limit": "190 183"
+        }
+      }
+    }
+  },
+  "fake_api_requests": [
+    "GET",
+    "GET",
+    "PATCH",
+    "GET",
+    "GET",
+    "GET"
+  ],
+  "simulated_outage_handled": true,
+  "existing_controller_pid_unchanged": true,
+  "existing_controller_active": true,
+  "preserved_profile_fields": [
+    "mem_clock",
+    "fan_speed"
+  ],
+  "cloud_test_status": "Deferred: HiveOS rejected API keys for the free farm; user chose local tests",
+  "passed": true
+}

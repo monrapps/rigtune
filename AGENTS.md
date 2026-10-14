@@ -9,13 +9,14 @@ RigTune controls NVIDIA GPU power limits on Linux/HiveOS. The objective is maxim
 - `rigtune/control.py`: per-GPU decisions, temperature smoothing, trend detection, settling, and recovery.
 - `rigtune/config.py`: strict JSON validation; `nvidia.py`: driver queries and confirmed writes.
 - `rigtune/runtime.py`: GPU selection, process locks, and execution; `cli.py` and `__main__.py`: command entry points.
+- `rigtune/hiveos.py`: optional API synchronization; `status.py`: atomic controller snapshots.
 - `tests/`: standard-library tests and shared fake hardware in `helpers.py`.
 - `config*.example.json`: generic and rig-specific configuration templates.
-- `deploy/rigtune.service`: systemd unit; `reports/`: historical hardware observations; `README.md`: usage documentation.
+- `deploy/`: systemd units; `docs/hiveos.md`: optional integration; `reports/`: hardware observations.
 
 ## Build, Test, and Development Commands
 
-Run from the repository root. There is no build step or external Python dependency; retain Python 3.6-compatible code.
+Run from the repository root. No build or external dependencies are required; retain Python 3.6 compatibility.
 
 - `python3 -m unittest discover -v`: run the hardware-free test suite.
 - `python3 -m rigtune check --config config.example.json`: validate configuration offline.
@@ -26,7 +27,7 @@ Run from the repository root. There is no build step or external Python dependen
 
 ## Coding Style and Naming Conventions
 
-Use four-space indentation, `snake_case` functions and variables, `PascalCase` classes, and uppercase constants. Preserve unit suffixes such as `_w`, `_c`, and `_s`. Write documentation, comments, docstrings, and program messages in English. Match the user's language in conversation. No formatter or linter is configured. Keep controller decisions separate from subprocess and filesystem operations.
+Use four-space indentation, `snake_case` functions and variables, `PascalCase` classes, and uppercase constants. Preserve unit suffixes (`_w`, `_c`, `_s`). Write repository content in English; match the user's language in conversation. No formatter or linter is configured. Separate controller decisions from subprocess and filesystem operations.
 
 ## Testing Guidelines
 
@@ -38,4 +39,4 @@ Follow the existing Conventional Commits style with English, lowercase imperativ
 
 ## Configuration and Deployment
 
-Keep local `config.json` ignored. Prefer UUIDs and driver-reported power ranges. Preserve settling after confirmed writes and critical-temperature protection. Current rig profiles use 62 °C, zero tolerance, and 60-second settling. Deployment uses `/opt/rigtune`, `/etc/rigtune/config.json`, and `rigtune.service`; hardware writes require root. Preserve active configuration when updating installations.
+Keep local configurations and tokens ignored. Prefer UUIDs and driver-reported power ranges. Preserve settling and critical-temperature protection. Current profiles use 62 °C, zero tolerance, and 60-second settling. Deployment uses `/opt/rigtune`, `/etc/rigtune/config.json`, and `rigtune.service`; hardware writes require root. Preserve active configurations. HiveOS synchronization runs separately; API failures must never block thermal control.

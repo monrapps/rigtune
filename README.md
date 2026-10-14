@@ -170,6 +170,11 @@ the driver's thermal protections and HiveOS shutdown mechanisms.
 
 ## HiveOS and systemd
 
+The controller runs independently of HiveOS. To also update the power limit
+shown in its web interface, use the [optional HiveOS synchronization service](docs/hiveos.md).
+It runs separately, needs an API token, and is disabled unless installed and
+started explicitly. API failures do not block thermal control.
+
 HiveOS uses absolute watts for PL. Overclock profiles, algorithm changes, and
 other programs may reapply limits. Avoid another periodic PL controller
 competing for the same GPU; external changes appear in the log. AutoFan controls

@@ -86,11 +86,12 @@ def bind_gpus(config, readings):
 
 
 class RigRunner:
-    def __init__(self, backend, managed, dry_run=False, clock=time.monotonic):
+    def __init__(self, backend, managed, dry_run=False, clock=time.monotonic, status=None):
         self.backend = backend
         self.managed = managed
         self.dry_run = dry_run
         self.clock = clock
+        self.status = status
 
     def cycle(self):
         healthy = True
@@ -158,8 +159,14 @@ class RigRunner:
                 healthy = False
                 continue
             gpu.last_seen_limit = confirmed.power_limit_w
+            readings[gpu.uuid.lower()] = confirmed
             controller.changed(self.clock())
             LOG.info("%s: PL confirmed at %s W", gpu.uuid, confirmed.power_limit_w)
+        if self.status is not None and not self.dry_run:
+            try:
+                self.status.write(self.managed, readings, healthy)
+            except (OSError, ValueError) as exc:
+                LOG.warning("Could not publish controller status: %s", exc)
         return healthy
 
 

@@ -1,7 +1,6 @@
 # Validation Reports
 
-These JSON files record hardware validation and service observations from
-October 13, 2026:
+These JSON files record hardware validation and service observations:
 
 - `hades-hardware-smoke.json`: a controlled 1 W adjustment, settling, and
   restoration test on Hades.
@@ -9,6 +8,10 @@ October 13, 2026:
   configurations, readings, and journal excerpts.
 - `hades-audit-20261013.json` and `t37-audit-20261013.json`: longer observation
   windows with telemetry, service state, and journal records.
+- `hades-hiveos-local-smoke.json`: real GPU readings with a loopback-only fake
+  HiveOS API and an isolated status fixture. This test performed no cloud
+  updates or hardware writes and did not restart the production controller.
+  Cloud testing was deferred because the free farm rejects API keys.
 
 ## Translation and Provenance
 

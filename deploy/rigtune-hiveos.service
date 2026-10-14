@@ -1,0 +1,23 @@
+[Unit]
+Description=RigTune - optional HiveOS power limit profile synchronization
+Wants=rigtune.service network-online.target
+After=rigtune.service network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/rigtune
+ExecStart=/usr/bin/python3 -m rigtune hiveos-sync --config /etc/rigtune/hiveos.json
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONDONTWRITEBYTECODE=1
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Restart=on-failure
+RestartPreventExitStatus=2
+RestartSec=30
+TimeoutStopSec=75
+UMask=0077
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

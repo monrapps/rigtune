@@ -25,6 +25,11 @@ def build_parser():
     run.add_argument("--config", required=True)
     run.add_argument("--dry-run", action="store_true", help="Simulate decisions without changing GPUs")
     run.add_argument("--once", action="store_true", help="Run one cycle (preserves warmup and protections)")
+    run.add_argument("--status-file", help="Publish confirmed readings as an atomic JSON snapshot")
+    sync = subparsers.add_parser("hiveos-sync", help="Optionally sync confirmed power limits to HiveOS")
+    sync.add_argument("--config", required=True, help="Path to the separate HiveOS integration configuration")
+    sync.add_argument("--dry-run", action="store_true", help="Preview the API update without sending it")
+    sync.add_argument("--once", action="store_true", help="Run one synchronization attempt")
     return parser
 
 
@@ -36,6 +41,9 @@ def main(argv=None):
         return 2
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     try:
+        if args.command == "hiveos-sync":
+            from .hiveos import run_sync
+            return run_sync(args.config, args.dry_run, args.once)
         if args.command == "list":
             readings = NvidiaSmi().read_all()
             if not readings:
@@ -71,7 +79,11 @@ def main(argv=None):
             for sig in (signal.SIGTERM, signal.SIGINT):
                 old_handlers[sig] = signal.signal(sig, request_stop)
             try:
-                runner = RigRunner(backend, managed, args.dry_run)
+                status = None
+                if args.status_file and not args.dry_run:
+                    from .status import StatusWriter
+                    status = StatusWriter(args.status_file)
+                runner = RigRunner(backend, managed, args.dry_run, status=status)
                 logging.info("RigTune %s: %s, %d GPU(s)", __version__,
                              "dry run" if args.dry_run else "controller active", len(managed))
                 while not stop.is_set():
